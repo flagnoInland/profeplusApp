@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.user.AppModeFragment">
+
+    <include layout="@layout/header_template0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_fondo"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/huge_margin"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+
+            <Button
+                android:id="@+id/btn_uni_mode"
+                android:layout_alignParentLeft="true"
+                android:layout_width="@dimen/size_xxx"
+                android:layout_height="@dimen/size_xxx"
+                android:textSize="@dimen/large_font"
+                android:layout_marginLeft="@dimen/huge_margin"
+                android:layout_marginRight="@dimen/huge_margin"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_purple"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingTop="@dimen/large_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:textAllCaps="false"
+                android:text="@string/text_uni_education"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_school_mode"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/size_xxx"
+                android:layout_height="@dimen/size_xxx"
+                android:layout_marginLeft="@dimen/huge_margin"
+                android:layout_marginRight="@dimen/huge_margin"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_green"
+                android:paddingTop="@dimen/large_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:textAllCaps="false"
+                android:text="@string/text_school_education"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

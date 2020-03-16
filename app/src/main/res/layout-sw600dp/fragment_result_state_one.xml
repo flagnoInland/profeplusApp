@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.ResultStateOneFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_above="@+id/botones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"/>
+
+            <include layout="@layout/subfragment_results"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/botones"
+            style="@style/results_button_box_land">
+
+            <Button
+                android:id="@+id/btn_get_report"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/results_app_button"
+                android:text="@string/text_get_report2"/>
+
+
+            <Button
+                android:id="@+id/btn_finish_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/results_app_button"
+                android:text="@string/text_finish_one2"/>
+
+            <Button
+                android:id="@+id/btn_refresh_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_update_answer"
+                style="@style/refresh_chart_button_land"/>
+
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:visibility="invisible"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

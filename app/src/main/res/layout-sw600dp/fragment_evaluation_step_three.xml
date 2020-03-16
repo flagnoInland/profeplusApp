@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.EvaluationStepThreeFragment">
+
+    <LinearLayout
+        android:layout_above="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"></include>
+
+        <ScrollView
+            style="@style/scrollview_border_land">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_header_evaluation_info"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_info_for_header_evaluation"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_course_name"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_course_name"
+                        style="@style/default_app_input_xx"
+                        android:nextFocusDown="@+id/edt_speciality"/>
+
+                </RelativeLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_padding" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_speciality"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_speciality"
+                        style="@style/default_app_input_xx"
+                        android:nextFocusDown="@+id/edt_institution"/>
+
+                </RelativeLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_padding" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_institution"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_institution"
+                        style="@style/default_app_input_xx"
+                        android:nextFocusDown="@+id/edt_header"/>
+
+                </RelativeLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_padding" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_header"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_header"
+                        style="@style/default_app_input_xx"/>
+
+                </RelativeLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_padding" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    style="@style/default_app_boton"
+                    android:textAllCaps="true"
+                    android:contentDescription="btnNextStepThreeEvaluation"
+                    android:text="@string/text_next"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

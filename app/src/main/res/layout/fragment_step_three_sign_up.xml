@@ -1,0 +1,131 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.user.StepThreeSignUpFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_next"
+            style="@style/lower_app_button"
+            android:contentDescription="nextsignin3"
+            android:text="@string/text_terminate"/>
+
+
+        <ScrollView
+            android:layout_above="@+id/btn_next"
+            style="@style/scrollview_border">
+
+            <LinearLayout
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_run_view"
+                    style="@style/style_text_x"
+                    android:text="@string/text_register_step_three"/>
+
+                <TextView
+                    android:id="@+id/text_phone"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_phone"/>
+
+                <EditText
+                    android:id="@+id/sign_up_phone"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/text_mail"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_email_address"/>
+
+                <EditText
+                    android:id="@+id/sign_up_mail"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/text_country"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_nationality"/>
+
+                <Spinner
+                    android:id="@+id/sign_up_nationality"
+                    style="@style/defaul_app_spinner" />
+
+                <TextView
+                    android:id="@+id/text_city"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_city_residence"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/sign_up_city"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/txt_concurso_group"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_concurso_group"/>
+
+                <EditText
+                    android:id="@+id/edt_concurso_group"
+                    style="@style/default_app_input" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_space" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_terms"
+                        android:button="@null"
+                        android:background="@drawable/btn_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/lnk_terms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/normal_padding"
+                        android:textSize="@dimen/big_font"
+                        android:text="@string/text_accept_term_conditions"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

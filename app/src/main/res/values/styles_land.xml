@@ -1,0 +1,67 @@
+<resources>
+
+    <style name="scrollview_border_land" parent="scrollview_border">
+        <item name="android:layout_marginLeft">@dimen/xxxxl_margin</item>
+        <item name="android:layout_marginRight">@dimen/xxxxl_margin</item>
+    </style>
+
+    <style name="default_app_boton_land" parent="default_app_boton">
+        <item name="android:layout_width">@dimen/size_xxxxx</item>
+    </style>
+
+    <style name="default_app_boton_land_orange" parent="default_app_boton_land">
+        <item name="android:background">@drawable/button_round_yellow</item>
+    </style>
+
+    <style name="lower_app_button_land" parent="lower_app_button">
+        <item name="android:layout_width">@dimen/size_xxxxx</item>
+        <item name="android:layout_marginTop">@dimen/normal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/big_margin</item>
+    </style>
+
+    <style name="defaul_app_spinner_land" parent="defaul_app_spinner">
+        <item name="android:layout_width">@dimen/size_xxxx</item>
+    </style>
+
+
+    <style name="default_app_input_land" parent="default_app_input">
+        <item name="android:layout_width">@dimen/size_xxxx</item>
+    </style>
+
+
+    <style name="default_app_toggle_land" parent="default_app_toggle">
+        <item name="android:layout_width">@dimen/size_xxxxx</item>
+    </style>
+
+    <style name="results_button_box_land" parent="results_button_box">
+        <item name="android:layout_marginLeft">@dimen/size_x</item>
+        <item name="android:layout_marginRight">@dimen/size_x</item>
+    </style>
+
+    <style name="style_text_x_land" parent="style_text_x">
+        <item name="android:textSize">@dimen/big_font</item>
+    </style>
+
+    <style name="style_text_xx_land" parent="style_text_x">
+        <item name="android:textSize">@dimen/big_font</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="style_text_xxx_land" parent="style_text_x">
+        <item name="android:textSize">@dimen/big_font</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="refresh_chart_button_land" parent="default_app_boton">
+        <item name="android:layout_marginLeft">@dimen/small_margin</item>
+        <item name="android:layout_marginRight">@dimen/small_margin</item>
+        <item name="android:paddingTop">@dimen/small_padding</item>
+        <item name="android:paddingBottom">@dimen/small_padding</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:background">@drawable/button_round_orange</item>
+    </style>
+
+
+</resources>

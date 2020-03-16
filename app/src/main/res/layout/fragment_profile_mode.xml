@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.equipu.profeplus.fragments.board.ProfileModeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/app_fondo"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/big_margin"
+                android:layout_marginLeft="@dimen/big_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbl_uni_student"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/text_uni_student"
+                    android:textColor="@color/verde"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="@dimen/big_font"/>
+
+                <ImageView
+                    android:id="@+id/btn_uni_student"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.7"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_student"
+                    android:padding="@dimen/normal_padding"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/big_margin"
+                android:layout_marginLeft="@dimen/big_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbl_uni_teacher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/text_uni_teacher"
+                    android:textColor="@color/verde"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/big_font"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/btn_uni_teacher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.7"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:padding="@dimen/normal_padding"
+                    android:src="@drawable/ic_teacher"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/big_margin"
+                android:layout_marginLeft="@dimen/big_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbl_school_teacher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/text_school_teacher"
+                    android:textColor="@color/verde"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/big_font"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/btn_school_teacher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.7"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:padding="@dimen/normal_padding"
+                    android:src="@drawable/ic_teacher"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

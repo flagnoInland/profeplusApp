@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.user.StepOneSignUpFragment">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn_next"
+            style="@style/lower_app_button_land"
+            android:text="@string/text_next"/>
+
+        <ScrollView
+            android:layout_above="@+id/btn_next"
+            style="@style/scrollview_border_land">
+
+            <LinearLayout
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_run_view"
+                    style="@style/style_text_x"
+                    android:text="@string/text_register_step_one"/>
+
+                <TextView
+                    android:id="@+id/text_name"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_write_name"/>
+
+                <EditText
+                    android:id="@+id/sign_up_name"
+                    style="@style/default_app_input_land"
+                    android:inputType="textCapWords" />
+
+                <TextView
+                    android:id="@+id/text_surname"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_write_lastname"/>
+                <EditText
+                    android:id="@+id/sign_up_surname"
+                    style="@style/default_app_input_land"
+                    android:inputType="textCapWords" />
+
+                <TextView
+                    android:id="@+id/text_gender"
+                    style="@style/style_text_xx"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_gender"/>
+
+                <Spinner
+                    android:id="@+id/gender_spinner"
+                    android:background="@drawable/borde_formulario_entrada"
+                    style="@style/defaul_app_spinner_land" />
+
+
+                <TextView
+                    android:id="@+id/text_birth"
+                    style="@style/style_text_xx"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_birthdate"/>
+
+                <TextView
+                    android:id="@+id/sign_up_date"
+                    style="@style/default_app_input_land"
+                    android:inputType="date" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

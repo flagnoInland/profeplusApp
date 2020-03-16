@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.user.StepTwoSignUpFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_next"
+           style="@style/lower_app_button"
+            android:contentDescription="nextsignin2"
+            android:text="@string/text_next"/>
+
+        <ScrollView
+            android:layout_above="@+id/btn_next"
+            style="@style/scrollview_border">
+
+            <LinearLayout
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_run_view"
+                    style="@style/style_text_x"
+                    android:text="@string/text_register_step_two"/>
+
+                <TextView
+                    android:id="@+id/text_dni"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_write_dni"/>
+
+                <EditText
+                    android:id="@+id/sign_up_dni"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/text_pass"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_write_password"/>
+
+                <EditText
+                    android:id="@+id/sign_up_pass"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/text_pass_again"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_write_password_again"/>
+
+                <EditText
+                    android:id="@+id/sign_up_pass_again"
+                    style="@style/default_app_input" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

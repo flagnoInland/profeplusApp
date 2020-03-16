@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/borde_round_dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_above="@id/app_dlg_btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_title_dlg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/large_margin"
+            android:layout_marginRight="@dimen/large_margin"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/big_font"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/text_advice_start"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <TextView
+                android:id="@+id/app_msg_dlg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:layout_marginTop="@dimen/normal_margin"
+                android:layout_marginBottom="@dimen/normal_margin"
+                android:paddingBottom="@dimen/huge_margin"
+                android:textColor="@color/black"
+                android:gravity="left"
+                android:textSize="@dimen/big_font"
+                android:text="@string/text_advice_content_start" />
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/app_dlg_btn_exit"
+        style="@style/lower_app_button"
+        android:text="@string/text_next"/>
+
+</RelativeLayout>

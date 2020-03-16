@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="twhite1">#00ffffff</color>
+    <color name="twhite2">#bbffffff</color>
+    <color name="twhite3">#ddffffff</color>
+    <color name="black">#000000</color>
+    <color name="tblack0">#04000000</color>
+    <color name="tblack1">#08000000</color>
+    <color name="tblack2">#10000000</color>
+    <color name="tblack3">#14000000</color>
+    <color name="tblack4">#18000000</color>
+    <color name="tblack5">#1c000000</color>
+    <color name="tblack6">#4f000000</color>
+    <color name="greenapp1">#A0B988</color>
+    <color name="greenapp2">#64C900</color>
+    <color name="greenapp3">#BED7A6</color>
+    <color name="greensha3">#77BED7A6</color>
+    <color name="bckg">#3322aa00</color>
+    <color name="dialog">#76993e</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="greenapp4">#FF448833</color>
+    <color name="verde2">#FF69990D</color>
+    <color name="verde">#FF74B47C</color>
+    <color name="violeta2">#FFA01C1C</color>
+    <color name="violeta">#FFB27B61</color>
+    <color name="dorado2">#FFDAA520</color>
+    <color name="dorado">#FFECB857</color>
+    <color name="yellow">#FFF8BF00</color>
+    <color name="pressed">#FFC0C0C0</color>
+    <color name="orange">#FFFFB347</color>
+    <color name="gris">#393A3A</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="transparencia_carga">#a0003300</color>
+
+
+</resources>

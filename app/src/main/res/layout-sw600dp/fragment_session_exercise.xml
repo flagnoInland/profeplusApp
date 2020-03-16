@@ -1,0 +1,231 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.SessionExerciseFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_results_chart"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                style="@style/lower_app_button_land"
+                android:text="@string/text_next"/>
+
+            <ScrollView
+                android:layout_above="@+id/btn_results_chart"
+                style="@style/scrollview_border_land">
+
+                <LinearLayout
+                    android:layout_width="@dimen/size_xxxx"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/txt_session_code"
+                        style="@style/style_text_x"
+                        android:text="@string/text_code_number"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/normal_margin">
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"/>
+
+                        <ImageView
+                            android:id="@+id/img_subject"
+                            android:layout_centerInParent="true"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="?attr/icono_t" />
+
+
+                        <Space
+                            android:layout_width="@dimen/normal_space"
+                            android:layout_height="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:background="@drawable/borde_ejercicio">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_topic_number"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/text_topic_number"
+                                    android:textColor="@color/gris"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/big_font"
+                                    android:gravity="center"/>
+
+                                <EditText
+                                    android:layout_centerInParent="true"
+                                    android:id="@+id/edt_topic_number"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/verde"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/extra_big_font"
+                                    android:maxLength="2"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:inputType="number"
+                                    android:padding="@dimen/small_padding"
+                                    android:background="@color/twhite1"/>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/normal_margin">
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"/>
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="?attr/icono_e" />
+
+
+                        <Space
+                            android:layout_width="@dimen/normal_space"
+                            android:layout_height="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:background="@drawable/borde_ejercicio">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_exercise_number"
+                                    android:layout_centerInParent="true"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/text_exercise_number"
+                                    android:textColor="@color/gris"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/big_font"
+                                    android:gravity="center"/>
+
+                                <EditText
+                                    android:layout_centerInParent="true"
+                                    android:id="@+id/edt_exercise_number"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/verde"
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/extra_big_font"
+                                    android:maxLength="2"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:inputType="number"
+                                    android:padding="@dimen/small_padding"
+                                    android:background="@color/twhite1"/>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"/>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/txt_bank_allow"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_bank_allow_better_reports"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

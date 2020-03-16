@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_lay_app_dlg"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/huge_margin"
+        android:paddingBottom="@dimen/huge_margin"
+        android:paddingLeft="@dimen/normal_margin"
+        android:paddingRight="@dimen/normal_margin"
+        android:layout_margin="@dimen/small_margin"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/borde_round_dialog">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/txt_can_start"
+            style="@style/style_text_x"
+            android:textSize="@dimen/large_font"
+            android:text="@string/text_can_start_step_one"/>
+
+
+        <TextView
+            android:id="@+id/txt_write_code"
+            style="@style/style_text_xx"
+            android:text="@string/text_ask_type_code_to_students"/>
+
+        <TextView
+            android:id="@+id/edt_rand_code_session"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/null_value_txt"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="@dimen/normal_padding"
+            android:textSize="@dimen/extra_huge_font"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/app_dlg_btn_exit"
+            android:layout_width="@dimen/size_x"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_border_dialog"
+            android:minHeight="0dp"
+            android:padding="@dimen/large_padding"
+            android:textSize="@dimen/big_font"
+            android:textColor="@color/white"
+            style="@style/default_app_boton_orange"
+            android:text="@string/text_accept"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
+

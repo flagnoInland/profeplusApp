@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context="com.equipu.profeplus.fragments.board.TeacherBoardFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_protocol"
+            style="@style/lower_app_button"
+            android:text="@string/text_protocol" />
+
+        <LinearLayout
+            android:layout_above="@+id/btn_protocol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template6b"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txt_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/big_margin"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/verde"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_free_course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/huge_margin"
+                android:layout_marginRight="@dimen/huge_margin"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_yellow"
+                android:padding="@dimen/large_margin"
+                android:text="@string/text_ask_class"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"/>
+
+            <Button
+                android:id="@+id/btn_evaluation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/huge_margin"
+                android:layout_marginRight="@dimen/huge_margin"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_purple"
+                android:padding="@dimen/big_margin"
+                android:text="@string/text_see_evaluation"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

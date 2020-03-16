@@ -1,0 +1,213 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.equipu.profeplus.fragments.board.EditProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/app_fondo">
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"/>
+
+            <ScrollView
+                android:layout_above="@+id/btn_next"
+                style="@style/scrollview_border">
+
+                <LinearLayout
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txt_run_view"
+                        style="@style/style_text_x"
+                        android:text="@string/text_personal_details"/>
+
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/tblack6"
+                        android:textSize="@dimen/tiny_font"
+                        android:text="Profeplus v0.6.8 Build 80"/>
+
+                    <TextView
+                        android:id="@+id/text_name"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_write_name"/>
+
+                    <EditText
+                        android:id="@+id/sign_up_name"
+                        style="@style/default_app_input"
+                        android:inputType="textCapWords" />
+
+                    <TextView
+                        android:id="@+id/text_surname"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_write_lastname"/>
+                    <EditText
+                        android:id="@+id/sign_up_surname"
+                        style="@style/default_app_input"
+                        android:inputType="textCapWords" />
+
+                    <TextView
+                        android:id="@+id/text_gender"
+                        style="@style/style_text_xx"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/text_gender"/>
+
+                    <Spinner
+                        android:id="@+id/gender_spinner"
+                        android:layout_gravity="center_vertical"
+                        style="@style/defaul_app_spinner"/>
+
+                    <TextView
+                        android:id="@+id/text_birth"
+                        style="@style/style_text_xx"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/text_birthdate"/>
+                    <TextView
+                        android:id="@+id/sign_up_date"
+                        style="@style/default_app_input"
+                        android:layout_gravity="center_vertical"
+                        android:inputType="date" />
+
+                    <TextView
+                        android:id="@+id/text_dni"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_write_dni"/>
+
+                    <EditText
+                        android:id="@+id/sign_up_dni"
+                        style="@style/default_app_input" />
+
+                    <TextView
+                        android:id="@+id/text_phone"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_phone"/>
+
+                    <EditText
+                        android:id="@+id/sign_up_phone"
+                        style="@style/default_app_input" />
+
+                    <TextView
+                        android:id="@+id/text_country"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_nationality"/>
+
+                    <Spinner
+                        android:id="@+id/sign_up_nationality"
+                        style="@style/defaul_app_spinner" />
+
+                    <TextView
+                        android:id="@+id/text_city"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_city_residence"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sign_up_city"
+                        style="@style/default_app_input" />
+
+                    <TextView
+                        android:id="@+id/txt_where"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_where_study"/>
+
+                    <EditText
+                        android:id="@+id/edt_institution"
+                        style="@style/default_app_input" />
+
+                    <TextView
+                        android:id="@+id/txt_what"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_what_study"/>
+
+                    <EditText
+                        android:id="@+id/edt_speciality"
+                        style="@style/default_app_input" />
+
+                    <TextView
+                        android:id="@+id/txt_which"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_which_student_id"/>
+
+                    <EditText
+                        android:id="@+id/edt_student_id"
+                        style="@style/default_app_input" />
+
+                    <TextView
+                        android:id="@+id/txt_concurso_group"
+                        style="@style/style_text_xx"
+                        android:text="@string/text_concurso_group"/>
+
+                    <EditText
+                        android:id="@+id/edt_concurso_group"
+                        style="@style/default_app_input" />
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/layout_support"
+                        android:layout_marginTop="@dimen/large_margin"
+                        android:layout_marginBottom="@dimen/large_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/scrollview_border_small">
+
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/btn_support_team"
+                            style="@style/default_app_boton"
+                            android:textAllCaps="false"
+                            android:text="@string/text_support_team"/>
+
+
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/txt_concurso_institute"
+                            style="@style/style_text_xx"
+                            android:text="@string/text_concurso_institute"/>
+
+                        <EditText
+                            android:visibility="gone"
+                            android:id="@+id/edt_concurso_institute"
+                            style="@style/default_app_input"/>
+
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/huge_margin" />
+
+                    <Button
+                        android:id="@+id/btn_next"
+                        style="@style/lower_app_button"
+                        android:text="@string/text_update"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+        <include layout="@layout/progress_layout"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

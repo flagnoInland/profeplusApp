@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorAccent">@color/verde</item>
+        <item name="android:textColorHint">@color/verde</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/new_transicion2</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="ic_back1">@drawable/ic_back1</item>
+        <item name="ic_close1">@drawable/ic_close1</item>
+        <item name="ic_user_mode">@drawable/ic_user_mode</item>
+        <item name="ic_back">@drawable/ic_back</item>
+        <item name="ic_edit_profile">@drawable/ic_edit_profile</item>
+        <item name="ic_becas">@drawable/ic_becas</item>
+        <item name="ic_close">@drawable/ic_close</item>
+        <item name="ic_refresh1">@drawable/ic_refresh1</item>
+        <item name="ic_share">@drawable/ic_share</item>
+        <item name="ic_iphone">@drawable/ic_iphone</item>
+        <item name="ic_delete">@drawable/ic_delete</item>
+        <item name="icono_e">@drawable/icono_e</item>
+        <item name="icono_t">@drawable/icono_t</item>
+    </style>
+
+    <style name="date_dialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_date</item>
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:calendarViewShown">false</item>
+    </style>
+
+</resources>

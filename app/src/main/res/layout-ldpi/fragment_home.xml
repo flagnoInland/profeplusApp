@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.user.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_fondo"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"/>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/title_height"
+            android:layout_marginLeft="@dimen/huge_margin"
+            android:layout_marginRight="@dimen/huge_margin">
+
+
+            <Button
+                android:id="@+id/btn_start_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_gold"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:paddingTop="@dimen/large_margin"
+                android:textAllCaps="true"
+                android:text="@string/text_login"/>
+
+            <Button
+                android:id="@+id/btn_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:paddingTop="@dimen/large_margin"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_green"
+                android:textAllCaps="true"
+                android:text="@string/text_sign_up"/>
+
+            <Button
+                android:id="@+id/btn_recover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:paddingTop="@dimen/large_margin"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_purple"
+                android:textAllCaps="true"
+                android:text="@string/text_recover_pass"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".fragments.teacher_job.SessionSchoolReportFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_fondo"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_above="@+id/btn_report"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"></include>
+
+            <ScrollView
+                style="@style/scrollview_border_small">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_answer_key"
+                        style="@style/style_text_x"
+                        android:text="@string/text_answer_key"/>
+
+                    <Spinner
+                        android:id="@+id/spn_answer_key"
+                        style="@style/defaul_app_spinner_small"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_margin" />
+
+                    <TextView
+                        android:id="@+id/txt_choose_type_report"
+                        style="@style/style_text_x"
+                        android:text="@string/text_choose_type_report"/>
+
+                    <Button
+                        android:id="@+id/btn_simple_report"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/big_font"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="@dimen/large_margin"
+                        android:background="@drawable/button_round_green"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:paddingRight="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/big_margin"
+                        android:paddingTop="@dimen/big_margin"
+                        android:textAllCaps="true"
+                        android:text="@string/text_button_simple_report"/>
+
+                    <Button
+                        android:id="@+id/btn_complete_report"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/large_margin"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:paddingRight="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/big_margin"
+                        android:paddingTop="@dimen/big_margin"
+                        android:textSize="@dimen/big_font"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button_round_green"
+                        android:textAllCaps="true"
+                        android:text="@string/text_button_complete_report"/>
+
+
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_margin" />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

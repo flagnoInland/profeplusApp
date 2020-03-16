@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.user.RecoverFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_change"
+            style="@style/lower_app_button"
+            android:text="@string/text_change"/>
+
+        <ScrollView
+            android:layout_above="@+id/btn_change"
+            style="@style/scrollview_border">
+
+            <LinearLayout
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_change_pass"
+                    style="@style/style_text_x"
+                    android:text="@string/text_change_pass"/>
+
+                <TextView
+                    android:id="@+id/txt_dni"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_dni"/>
+
+                <EditText
+                    android:id="@+id/edt_dni"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/txt_birthdate"
+                    style="@style/style_text_xx"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_birthdate"/>
+
+                <TextView
+                    android:id="@+id/edt_birthdate"
+                    style="@style/default_app_input"
+                    android:layout_gravity="center_vertical"
+                    android:inputType="date" />
+
+                <TextView
+                    android:id="@+id/txt_email"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_email_address"/>
+
+                <EditText
+                    android:id="@+id/edt_email"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/txt_pass"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_password"/>
+
+                <EditText
+                    android:id="@+id/edt_password"
+                    style="@style/default_app_input" />
+
+                <TextView
+                    android:id="@+id/txt_pass2"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_confirm_password"/>
+
+                <EditText
+                    android:id="@+id/edt_confirm_pass"
+                    style="@style/default_app_input" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

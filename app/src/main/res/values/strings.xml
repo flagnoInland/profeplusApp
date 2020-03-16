@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProfePlus</string>
+    <string name="facebook_app_id">1146926132073409</string>
+    <string name="twitter_app_id">3e8ca93c58e6d2f5c652b3dd3a0963daa3f9c89e</string>
+    <string name="lorem">Lorem Ipsum</string>
+    <string name="ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. </string>
+    <string name="text_uni_code">Código Universitario</string>
+    <string name="msg_type_code_teacher_shows">\nIntroduzca la clave\nindicada por el profesor.\n</string>
+    <string name="btn_enter_class">ENTRAR A CLASE</string>
+    <string name="btn_a_title">A</string>
+    <string name="btn_b_title">B</string>
+    <string name="btn_c_title">C</string>
+    <string name="btn_d_title">D</string>
+    <string name="btn_e_title">E</string>
+    <string name="text_first_step">Primer Paso</string>
+    <string name="null_value_txt">0000</string>
+    <string name="text_alerta">Alerta</string>
+    <string name="text_confirm">Confirmar</string>
+    <string name="text_problem">Problema</string>
+    <string name="msg_network_fails">\nNo se puede conectar.\n</string>
+    <string name="text_notification">NOTIFICACIÓN</string>
+    <string name="msg_wrong_code_session_over">\nCódigo equivocado o su lección ha finalizado.\n</string>
+    <string name="text_teacher">PROFESOR</string>
+    <string name="text_student">ESTUDIANTE</string>
+    <string name="msg_data_are_incorrect">\nLos datos ingresados son incorrectos.\n</string>
+    <string name="msg_you_didnt_write_code">\nNo has escrito el código.\n</string>
+    <string name="msg_fill_all_fields">\nLlene todos los campos.\n</string>
+    <string name="text_error">ERROR</string>
+    <string name="msg_mail_already_used">\nCorreo ya usado.\n</string>
+    <string name="text_step_one">PASO 1</string>
+    <string name="text_step_two">PASO 2</string>
+    <string name="text_step">Paso</string>
+    <string name="text_code">Clave</string>
+    <string name="msg_password_user_incorrect">\nContraseña o usuario incorrecto.\n</string>
+    <string name="text_send_answer">\nSu respuesta fue enviada.\n¡Gracias!\n</string>
+    <string name="text_answer_not_used">\nRespuesta no considerada.\n</string>
+    <string name="simple">M</string>
+    <string name="symbol_pct">(%)</string>
+    <string name="msg_passwords_are_different">\nLas contraseñas no son iguales.\n</string>
+    <string name="msg_email_is_invalid">\nLa cuenta de correo no es válida.\n</string>
+    <string name="text_begin">INICIAR</string>
+    <string name="text_terminate">TERMINAR</string>
+    <string name="text_email">e-mail</string>
+    <string name="msg_numbers_greater_zero">\nLos Números deben ser mayores que 0.\n</string>
+    <string name="text_opinion">Opinión</string>
+    <string name="text_free_exercise">Ejercicio Libre</string>
+    <string name="text_yes">Sí</string>
+    <string name="text_no">No</string>
+    <string name="lbl_opinion_a">Estoy regularmente satisfecho con lo planteado.</string>
+    <string name="lbl_opinion_b">Estoy regularmente satisfecho con lo planteado.</string>
+    <string name="lbl_opinion_c">Estoy regularmente satisfecho con lo planteado.</string>
+    <string name="lbl_opinion_d">Estoy regularmente satisfecho con lo planteado.</string>
+    <string name="lbl_opinion_e">Estoy regularmente satisfecho con lo planteado.</string>
+    <string name="msg_ask_partner_question_one_two">Pregunta a tu compañero(a):\n1.
+        ¿Qué concepto de este curso fundamentó tu respuesta?\n2. Imagina otras situaciones
+        preguntándole ¿y qué pasaría si…?\n\nLuego, cada uno envíe su respuesta.</string>
+    <string name="msg_tap_correct_answer">Marca la alternativa correcta:</string>
+    <string name="text_gender">Género</string>
+    <string name="text_write_name">Escriba su nombre: (obligatorio)</string>
+    <string name="text_write_lastname">Escriba sus apellidos: (obligatorio)</string>
+    <string name="text_next">Siguiente</string>
+    <string name="text_register_step_one">REGISTRO: PASO 1</string>
+    <string name="text_register_step_two">REGISTRO: PASO 2</string>
+    <string name="text_write_dni">Ingrese su DNI</string>
+    <string name="text_write_password">Cree su contraseña para este App</string>
+    <string name="text_write_password_again">Confirme su contraseña</string>
+    <string name="text_register_step_three">REGISTRO: PASO 3</string>
+    <string name="text_phone">Teléfono</string>
+    <string name="text_email_address">Correo Electrónico (obligatorio)</string>
+    <string name="text_nationality">Nacionalidad</string>
+    <string name="text_city_residence">Ciudad de residencia</string>
+    <string name="text_ask_class">Preguntar\na la clase</string>
+    <string name="text_protocol">Tutorial</string>
+    <string name="text_which_type_question">¿QUÉ TIPO DE PREGUNTA DESEA REALIZAR?</string>
+    <string name="text_five_alternatives">De 5 alternativas</string>
+    <string name="text_false_or_true">Verdadero/Falso</string>
+    <string name="text_from_databank">De un banco de preguntas</string>
+    <string name="text_get_opinion">Obtener opinión</string>
+    <string name="text_which_opinion_want">¿QUÉ OPINIÓN DESEA RECIBIR?</string>
+    <string name="text_satisfaction_level">Nivel de\nsatisfacción</string>
+    <string name="text_agreement_level">Nivel de acuerdo\no desacuerdo</string>
+    <string name="text_qualification">Nivel de\ncalificación</string>
+    <string name="text_speaker_examination">Encuesta al\nexpositor</string>
+    <string name="text_view_results">VER RESULTADOS</string>
+    <string name="text_show_code_to_student_board">Indique la clave a los estudiantes\n(Recomendamos copiarlo en la pizarra)</string>
+    <string name="text_can_start">YA PUEDE EMPEZAR</string>
+    <string name="text_bank_allow_better_reports">El banco de preguntas permite un mejor orden en
+        los reportes de los ejercicios realizados.  Para más detalle revise el tutorial.</string>
+    <string name="text_code_number">CLAVE: 9999</string>
+    <string name="text_topic_number">Número de tema\no tópico</string>
+    <string name="text_exercise_number">Número de\nejercicio</string>
+    <string name="text_write_data_for_inform">INDIQUE LOS DATOS PARA EL INFORME QUE SE ENVIARÁ
+        POR EMAIL</string>
+    <string name="text_level">Nivel:</string>
+    <string name="text_grade">Grado:</string>
+    <string name="text_classroom">Sección:</string>
+    <string name="text_send_report">ENVIAR INFORME</string>
+    <string name="text_finish_one">Terminar\npaso 1</string>
+    <string name="text_finish_one2">Terminar paso 1</string>
+    <string name="text_get_report">RECIBIR\nINFORME</string>
+    <string name="text_get_report2">RECIBIR INFORME</string>
+    <string name="text_start_two">INICIAR\nPASO 2</string>
+    <string name="text_start_two2">INICIAR PASO 2</string>
+    <string name="text_finish_two">TERMINAR\nPASO 2</string>
+    <string name="text_finish_two2">TERMINAR PASO 2</string>
+    <string name="symbol_v">V</string>
+    <string name="symbol_f">F</string>
+    <string name="text_alternative_dont_know">No sabe</string>
+    <string name="text_alternative_no_answer">S.R.</string>
+    <string name="text_individual_answer">RESPUESTA INDIVIDUAL</string>
+    <string name="text_peer_instruction">INSTRUCCIÓN POR PARES</string>
+    <string name="text_team_work">TRABAJO EN EQUIPO</string>
+    <string name="msg_know_real_time_students_learning_process">¡Listo! Ahora podrás conocer en
+        tiempo real el nivel de comprensión de los estudiantes, realizando una pregunta.\nMayor
+        información en el TUTORIAL.</string>
+    <string name="msg_will_be_sent_message">¡Listo!,\nSe le enviará, vía Email, su informe.</string>
+    <string name="text_advice_start">CONSEJOS PARA LA PASO 1</string>
+    <string name="text_advice_content_start">Acá los estudiantes responden de manera individual
+        sobre el ejercicio planteado. El tiempo de cada paso las define el profesor, según su
+        criterio. Mayor información en TUTORIAL.</string>
+    <string name="text_personal_details">DATOS PERSONALES</string>
+    <string name="text_update">ACTUALIZAR</string>
+    <string name="text_sign_in">INGRESAR</string>
+    <string name="text_uni_education">Educación Superior\n(Universidades\ne Institutos)</string>
+    <string name="text_school_education">Educación Básica\n(Secundaria\no Primaria)</string>
+    <string name="text_login">Iniciar Sesión</string>
+    <string name="text_sign_up">Registrarse</string>
+    <string name="text_recover_pass">Recuperar</string>
+    <string name="text_change">Cambiar</string>
+    <string name="text_change_pass">Cambiar Contraseña</string>
+    <string name="text_dni">Documento de Identidad</string>
+
+    <string name="text_birthdate">Fecha de Nacimiento (obligatorio)</string>
+    <string name="text_confirm_password">Confirmar Contraseña</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_register_step_four">REGISTRO: PASO 4</string>
+    <string name="text_where_study">¿Cuál es el nombre de la institución donde estudias? (opcional)</string>
+    <string name="text_what_study">¿Qué carrera estudias? (opcional)</string>
+    <string name="text_which_student_id">¿Cuál es tu código de estudiante? (opcional)</string>
+    <string name="text_protocol_teach">Protocolo de\ndictado</string>
+    <string name="text_use_manual">Manual\nde uso</string>
+    <string name="text_ask_question_manual">Cómo crear un\nbanco de preguntas</string>
+    <string name="text_evaluation">Evaluación calificada</string>
+    <string name="text_user_student_manual">Manual de uso</string>
+    <string name="text_accept_term_conditions"><u>Aceptar términos y condiciones.</u></string>
+    <string name="msg_we_cannot_register">No podemos terminar su registro. Revise que haya completado toda la información de esta sección.</string>
+    <string name="text_uni_student">ESTUDIANTE DE EDUCACIÓN SUPERIOR</string>
+    <string name="text_uni_teacher">DOCENTE DE EDUCACIÓN SUPERIOR</string>
+    <string name="text_school_teacher">DOCENTE DE COLEGIO</string>
+    <string name="text_where_do_you_study">Nombre del instituto o universidad</string>
+    <string name="text_what_do_you_study">Nombre de la carrera técnica o universitaria</string>
+    <string name="text_what_student_id">Información obligatoria para estudiantes de universidades.</string>
+    <string name="msg_choose_alternative_want_send_answer">ESCOGISTE LA ALTERNATIVA:\n%1$s\n¿DESEAS ENVIAR ESTA RESPUESTA?</string>
+    <string name="text_wait_teacher">Espera la indicación del docente.</string>
+    <string name="text_accept">Aceptar</string>
+    <string name="msg_work_with_partner_ask_challenge_question">Trabaja en equipo con uno de tus
+        compañeros y hazle las preguntas reto.\n\n Pregunta a tu compañero(a):\n\n 1.
+        ¿Qué concepto de esta lección fundamentó tu respuesta?\n\n 2. ¿Y qué pasaría si…?
+        (crea otras situaciones)</string>
+    <string name="text_share_partner">PRESTAR A TU COMPAÑERO</string>
+    <string name="text_challenge_question">Preguntas reto</string>
+    <string name="text_important">IMPORTANTE:</string>
+    <string name="text_change_one_chance">PARA CAMBIAR TU RESPUESTA SÓLO TIENES UNA OPORTUNIDAD.</string>
+    <string name="text_answer_step_two_student_simple">Pregunta a tu compañero(a):\n 1.
+        ¿Qué concepto de esta lección fundamentó tu respuesta?\n 2. ¿Y qué pasaría si…?
+        (crea otras situaciones)</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="msg_can_participate_thanks_to">¡PODRÁS PARTICIPAR GRACIAS A %1$s!</string>
+    <string name="text_close_guest_session">CERRAR SESIÓN DE INVITADO</string>
+    <string name="text_msg_return_owner">¡GRACIAS!\n%1$s,\npara volver a tu sesión:</string>
+    <string name="text_important_only_one_chance">IMPORTANTE:\nSólo puedes marcar una vez</string>
+    <string name="text_thank_owner">Por favor,\nagradece la amabilidad de tu compañero(a)\n%1$s</string>
+    <string name="text_finish_exit">Finalizar y salir</string>
+    <string name="text_want_report_for_question">¿Desea un informe de esta pregunta?</string>
+    <!--string name="text_choose_type_report">Opcional:\nElija el tipo de informe que desearía recibir de esta pregunta:</string-->
+    <string name="text_choose_type_report">¿Desea redactar más información a su informe?</string>
+    <string name="text_answer_key">Ingrese la alternativa correcta:</string>
+    <string name="text_button_simple_report">INFORME SENCILLO:\nSolo cantidad y
+        proporción que respondió correctamente.</string>
+    <string name="text_button_complete_report">INFORME DETALLADO:\nMayor información que
+        usted deberá ingresar.</string>
+    <string name="text_type_correct_answer">Debe ingresar la alternativa correcta.</string>
+    <string name="text_complete_report_title">SI DESEA RECIBIR UN INFORME
+        DETALLADO DE ESTA PREGUNTA, COMPLETE:</string>
+    <string name="text_name_course">Nombre del curso</string>
+    <string name="text_name_speciality">Opcional: Nombre de la Facultad o Especialidad de este curso</string>
+    <string name="text_name_institution">Opcional: Nombre de la universidad o instituto</string>
+    <string name="text_type_observations">Opcional: Título de la evaluación (Ej.: Examen 1,  Examen 1, otro)</string>
+    <string name="text_fill_course_name">Llene el nombre del curso</string>
+    <string name="text_becas_and_certificates">BECAS Y CERTIFICADOS</string>
+    <string name="text_content_becas_certificates">Cada mes se premiará a los usuarios que tengan
+        mayor actividad en este sistema, con becas de estudio certificadas, tanto a docentes
+        como a estudiantes. Las instituciones que ofrecen las becas
+        para las certificaciones son:</string>
+    <string name="text_web_app_prizes">Las premiaciones se difundirán en la Web\nwww.E-QUIPU.pe</string>
+    <string name="text_school_name">Siglas o nombre de la institución educativa</string>
+    <string name="text_type_next_information">INGRESE LA SIGUIENTE INFORMACIÓN</string>
+    <string name="text_choose_question_weight">Elija para cada pregunta su calificación o valor:</string>
+    <string name="text_equal_weight">Todas las preguntas tienen igual puntaje o valor.</string>
+    <string name="text_different_weight">Todas las preguntas tienen diferentes puntajes o valores.</string>
+    <string name="text_quantity_questions">Cantidad de preguntas</string>
+    <string name="text_overall_score_evaluation">Puntaje total de la evaluación</string>
+    <string name="text_evaluation_start_now">¿La evaluación se realizará en estos instantes (ahora)?</string>
+    <string name="text_alert_type_question">Las preguntas serán de cinco alternativas
+        (A, B, C, D y E) o también de dos (Verdadero y Falso).</string>
+    <string name="text_duration_evaluation">Duración de la evaluación  (en minutos)</string>
+    <string name="text_type_evaluation_date">Ingrese la fecha de la evaluación</string>
+    <string name="text_start_time">Hora de inicio</string>
+    <string name="text_end_time">Hora de fin</string>
+    <string name="text_info_for_header_evaluation">INFORMACIÓN PARA EL ENCABEZADO DE LA EVALUACIÓN</string>
+    <string name="text_optional">OPCIONAL</string>
+    <string name="text_calculator">Calculadora</string>
+    <string name="text_notes">Apuntes de clase</string>
+    <string name="text_books">Libros</string>
+    <string name="text_computer">Computadora personal</string>
+    <string name="text_additional_indications">Indicaciones que desee incluir en la evaluación.</string>
+    <string name="text_type_solutions">INGRESE EL SOLUCIONARIO</string>
+    <string name="text_question">Pregunta</string>
+    <string name="text_answer">Respuesta</string>
+    <string name="text_score">Puntaje</string>
+    <string name="msg_results_send_via_mail">Los resultados le llegarán vía Email al final de la evaluación.</string>
+    <string name="text_edit">Editar</string>
+    <string name="msg_number_connected_now">Cantidad de conectados en estos momentos:</string>
+    <string name="msg_evaluation_at_moment">Evaluación que se realiza en estos momentos</string>
+    <string name="text_see_evaluation">Ver las evaluaciones\nque he creado</string>
+    <string name="text_create_evaluation">CREAR OTRA EVALUACIÓN</string>
+    <string name="text_active_evaluation">EVALUACIONES ACTIVAS</string>
+    <string name="text_at_moment">EN ESTOS INSTANTES</string>
+    <string name="text_title_exam">Examen 1</string>
+    <string name="text_observation_evaluation">Indicaciones:  Solución conjunta.</string>
+    <string name="text_indications">Indicaciones:</string>
+    <string name="text_materials_to_use">Materiales que usarán</string>
+
+
+    <string name="text_sum_not_match">La suma no coincide con el puntaje total de la evaluación.\n¿Desea continuar?</string>
+    <string name="text_save">GUARDAR</string>
+    <string name="symbol_0">0</string>
+    <string name="text_pending_evaluation">EVALUACIONES PENDIENTES</string>
+    <string name="msg_wrong_data">Los datos ingresados son incorrectos.</string>
+    <string name="service_mail">Mail_ProfePLUS</string>
+    <string name="text_close">CERRAR</string>
+    <string name="text_refresh">Actualizar</string>
+    <string name="text_first_choose_answer">Primero debes enviar tu respuesta.</string>
+    <string name="text_name_school">Nombre de la Escuela</string>
+    <string name="service_eval_mail">SendEvalMail</string>
+    <string name="text_your_have_password">Tu contraseña ha sido renovada.</string>
+    <string name="text_true">Verdadero</string>
+    <string name="text_false">Falso</string>
+    <string name="text_terms_conditions">Términos y Condiciones</string>
+    <string name="msg_terms_conditions"><![CDATA[ProfePlus es una iniciativa que nació en la Red de
+Emprendedores E-QUIPU. Su uso es libre y su descarga siempre será gratuita por cualquier
+institución de educación básica o superior, peruana o extranjera e inclusive en otros
+tipos de capacitación que consideren conveniente.<br/><br/>
+ProfePlus fue posible gracias a un esfuerzo conjunto de un equipo de profesores, estudiantes y
+profesionales, quienes tienen pasión por la enseñanza y que creen firmemente que es
+posible mejorar el proceso de aprendizaje a través de la aplicación de la metodología
+de instrucción por pares, creada por el Dr. Eric Mazur en la Universidad de Harvard.<br/><br/>
+El uso de ProfePlus, según el protocolo establecido, además de hacer más interactiva las clases,
+favorece enormemente a los estudiantes en el aprendizaje de conceptos y eleva
+significativamente su confianza en desarrollar competencias importantes.<br/><br/>
+La Red de Emprendedores E-QUIPU está integrada por universidades de costa, sierra
+y selva del Perú. Las instituciones académicas que forman parte de esta red son la
+Pontificia Universidad Católica del Perú, Universidad Nacional Mayor de San Marcos,
+Universidad Peruana Cayetano Heredia, Universidad Católica de Santa María, Universidad
+Nacional de Trujillo, Universidad Científica del Perú, Universidad Nacional de la
+Amazonía Peruana, Universidad Privada del Norte, Universidad Nacional del Callao,
+Universidad Nacional Federico Villarreal, Universidad Nacional Enrique Guzmán y Valle,
+Universidad Nacional de Ingeniería, y la Universidad Esan.<br/><br/>
+A continuación se presentan una serie de condiciones y términos de uso para los usuarios de
+ProfePlus, los cuales han sido redactados inicialmente en castellano, en Perú.
+En caso exista alguna discrepancia con lo que se indica en esta declaración, debe
+considerarse al texto en castellano como el documento vinculante.<br/><br/>
+<b>¿Quién es elegible para usar ProfePlus?</b> <br/>
+La experiencia nos ha indicado que la experiencia ProfePlus genera en los usuarios ciertas
+características que los diferencian del común de profesores y estudiantes del sistema
+educativo rígido que se mantiene en la mayoría de instituciones educativas. <br/><br/>
+Estas características se producen al aplicar el protocolo de uso, indicado en ProfePlus; y son
+principalmente las siguientes: <br/><br/>
+
+1. Pasión por la aprender y cooperar con el otro.<br/>
+2. Rebeldía ante un sistema rígido de enseñanza.<br/>
+        3. Apertura al emprendimiento y la innovación.<br/>
+
+Por tanto, las personas que deseen utilizar ProfePlus son quienes estén dispuestos a desarrollar
+las características indicadas anteriormente o consideren que ya las tienen desarrolladas.<br/><br/>
+Las tres características mencionadas son producto de la interacción que genera el paso 2, que es
+la aplicación de la metodología de instrucción por pares; propiciando un efecto
+vinculante con todas las características indicadas.  <br/><br/>
+Entre los estudiantes, la pasión por la aprender y cooperar con el otro se da al momento de
+interactuar con su par o compañero de clase. Asimismo, en los profesores esta
+característica se refuerza al escuchar las preguntas de sus estudiantes, que son
+variaciones de lo que él plantea y que muchas veces son altamente creativas.  <br/><br/>
+La rebeldía ante un sistema rígido de enseñanza es notoria en los profesores que usan ProfePlus,
+pues la enseñanza actual posiciona muchas veces al profesor como el más activo en el aula
+y esperando que los estudiantes solamente respondan, quedando ellos rígidos y creyendo
+que el profesor es quien tiene "que iluminarlos". Aplicando ProfePlus el profesor está
+estimulando una clase más interactiva y propicia que los estudiantes produzcan preguntas
+a diversas cuestiones, en lugar de solamente brindar respuestas, cooperando activamente
+con sus pares en clase. Asimismo, creemos que los estudiantes generarán esta
+característica pues además de habituarse  a interactuar más fácilmente con sus pares,
+siendo más fácil que ellos envíen sus respuestas a cualquier tema que se plantee, los
+estudiantes evidenciarán que su profesor sí se atreve a rebelarse a un sistema rígido
+para favorecer su aprendizaje, con el uso de TICs. <br/><br/>
+La apertura al emprendimiento y la innovación es evidente entre los profesores y estudiantes,
+pues este emprendimiento académico implica atreverse a implementar algo difícil y
+complicado (téngase en cuenta que no es fácil implementar mejoras y cambios en el
+ámbito educativo, a cualquier nivel). Al hacer realidad este emprendimiento, al
+hacerlo realidad, se habrá conseguido innovar.  Además, los estudiantes se sentirán más
+confiados en la formación recibida en competencias que favorecen el emprendimiento y la
+innovación (como trabajo en equipo, participación en proyectos, aprendizaje autónomo,
+ética y ciudadanía, capacidad crítica, entre otros).  <br/><br/>
+<b>¿Cuáles son nuestros Términos y Condiciones?</b> <br/>
+ProfePlus, al ser una iniciativa de la Red de Emprendedores E-QUIPU, está regida por sus términos
+y condiciones, los cuales se pueden revisar en su Web www.e-quipu.pe. En caso haya
+discrepancias con la declaración que se presenta a continuación, debe considerarse
+siempre como texto vinculante los términos y condiciones de E-QUIPU.<br/><br/>
+E-QUIPU es un área de la Pontificia Universidad Católica del Perú que apoya a los jóvenes en
+sus emprendimientos, de cualquier ámbito, como culturales, sociales o empresariales.
+Nació el 2006 y se ha expandido a varias universidades del país que también consideran
+importante apoyar este semillero de emprendimiento con el fin ulterior de propiciar la
+investigación, el desarrollo y la innovación a través de los temas de interés de los
+equipos conformados.  <br/><br/>
+Al acceder a los servicios y completar el proceso de registro de ProfePlus, usted declara que
+está de acuerdo con las reglas y términos de uso que aquí se detallan. <br/><br/>
+<b>a. Descripción de los Servicios</b>
+Como usuario y miembro de ProfePlus, se le proporcionará esta herramienta informática para
+facilitar la interacción de los estudiantes en la clase. ProfePlus se reserva el derecho
+de mejorar, cambiar o descontinuar los servicios cuando lo considere necesario. <br/><br/>
+
+<b>b. Para los usuarios</b> <br/>
+El impacto de ProfePlus ha sido analizado por el Grupo de Investigación del Trabajo en Equipo y
+Emprendimiento de la Pontificia Universidad Católica del Perú. Sin embargo, lo más
+importante es que tanto el profesor como los estudiantes se comprometan, POR SU HONOR
+PERSONAL, a esforzarse siempre en dar lo mejor en cada sesión.<br/><br/>
+El uso de servicios está sujeto a las condiciones de E-QUIPU, pero no se asume ninguna obligación
+de monitorear explícitamente los servicios para hacerlos cumplir tampoco garantiza que
+cualquier monitoreo que realice será a satisfacción del usuario. Por ello, para alcanzar
+los resultados esperados, es necesario que el usuario siga el protocolo de uso y manual
+de uso, que están indicados en este sistema de innovación docente. <br/><br/>
+Al enterarse a cualquier violación de este acuerdo, E-QUIPU, puede cancelar su acceso y uso de
+los Servicios y tomar cualquier otra acción que estime oportunas para hacer valer sus
+derechos e interponer todos los recursos disponibles si, en nuestra opinión, no se
+cumple con las siguientes pautas: <br/><br/>
+
+• La información que se genere con el uso de ProfePlus será de uso estrictamente académico,
+con fines de investigación, según los cánones éticos que esta exija.<br/>
+• Los miembros no deben utilizar las direcciones de correo electrónico de personas
+desconocidas para ellos, falsos o confeccionados.<br/>
+• Los miembros no deben estar registrados con el nombre de una asociación o empresa. E-QUIPU
+informa que el perfil es únicamente utilizado para personas, por lo que cuenta con la
+facultad de eliminar al usuario consignado como una agrupación.<br/>
+• Los miembros no deben tratar de interferir con el uso de los Servicios de
+cualquier otra persona.<br/>
+• Los miembros no deben intentar obtener acceso no autorizado a la base de datos
+de E-QUIPU o nuestros sistemas informáticos.<br/>
+• Los miembros no deben tratar de cambiar, traducir, adaptar, editar, descompilar,
+desensamblar o aplicar ingeniería inversa a ningún programa de
+software utilizados en ProfePlus.<br/>
+• Los miembros no deben utilizar la cuenta, nombre de usuario o contraseña de otro usuario
+en cualquier momento o revelar su contraseña a terceros o permitir a terceros acceder
+a su cuenta; salvo en el caso indicado en el paso 2 de los estudiantes
+(trabajo en equipo), si así lo desease.<br/>
+• Todas las decisiones relativas a la aplicabilidad de estas orientaciones serán a discreción
+única y exclusiva de E-QUIPU. Una cuenta puede ser terminada en cualquier momento,
+sin previo aviso, dependiendo de la gravedad de la infracción, que se realice.<br/><br/>
+
+<b>c. Privacidad</b> <br/>
+E-QUIPU ha establecido una política de privacidad que explica cómo y cuándo E-QUIPU pueden usar
+información de los miembros y contenido de la página.
+En el caso de los profesores que utilicen esta herramienta, obtendrán cierta información de
+sus estudiantes en sus reportes de evaluaciones calificadas, para uso estrictamente
+académico y de investigación. <br/><br/>
+
+<b>d. Programa de Retención y Seguridad</b> <br/>
+Toda la información personal recopilada por ProfePlus, incluyendo, sin limitación, su nombre,
+ubicación, dirección de correo electrónico, información de acceso, direcciones IP u
+otros datos, podrá ser almacenada por E-QUIPU indefinidamente y se realizará de una
+manera segura y protegida. <br/><br/>
+<b>e. Aviso sobre Email Comercial</b> <br/>
+Los miembros al acceder a nuestra plataforma con su correo electrónico, dan la autorización y
+aceptan que ingresaran a una base de datos para las campañas de mailing y el envió de
+Newsletter semanal de las que hace uso E-QUIPU para mantenerlos informados de las
+actividades emprendedoras. <br/><br/>
+
+<b>f. Cuenta de Usuario y Contraseña</b> <br/>
+Una vez registrado en ProfePlus, luego de crear su contraseña y su cuenta, será el único
+responsable de cualquier y todas las actividades que ocurran bajo dicha cuenta.
+El miembro se compromete a notificar inmediatamente a E-QUIPU de cualquier uso no
+autorizado de su cuenta o cualquier otra violación de seguridad conocido. <br/><br/>
+<b>g.	Derechos de autor, marcas, patentes y derechos de propiedad intelectual</b> <br/>
+Los Miembros reconocen que los mensajes, archivos u otros materiales ("Contenido") que
+figuran en ProfePlus y dentro de los mensajes de correo electrónico, están protegidos
+por derechos de autor, marcas comerciales, marcas de servicio, patentes u otros
+derechos y leyes de propiedad. A los Miembros se les permite usar contenido o
+contenido de terceros sólo como autorización expresa de E-QUIPU. <br/><br/>
+El Miembro no puede copiar, reproducir, distribuir o crear trabajos derivados del contenido
+ProfePlus o contenido de terceros, sin ser expresamente autorizado para ello
+por el anunciante E-QUIPU o terceros. <br/><br/>
+E-QUIPU respeta la ley de derechos de autor y espera a los Miembros a que hagan lo mismo.
+La copia ilegal o no autorizada, distribución, modificación, exhibición pública o
+ejecución pública de obras con derechos de autor constituye una infracción de los
+derechos de los titulares. Si usted cree que su trabajo ha sido copiado de una manera
+que constituye una infracción de copyright, o sus derechos de propiedad intelectual
+han sido violados de otra manera, por favor notifique a contacto@e-quipu.pe. <br/><br/>
+<b>h. Disputas</b> <br/>
+Usted y E-QUIPU acepta que salvo lo que se disponga expresamente en este acuerdo, tratarán de
+resolver todas las disputas ya sea en la ley, la equidad o de otra manera, únicamente a
+través de arbitraje individual de conformidad con las políticas y procedimientos
+establecidos en el presente Acuerdo. <br/><br/>
+<b>i. Limitación de Responsabilidad</b> <br/>
+Bajo ninguna circunstancia ProfePlus es responsable del mal uso de esta herramienta
+informática para la innovación docente. <br/><br/>
+<b>j. Cambios en los Términos</b> <br/>
+E-QUIPU se reserva el derecho de cambiar o modificar el presente acuerdo en cualquier momento,
+por cualquier razón, o cuando lo considere necesario. La versión actual será
+publicada en www.e-quipu.pe. <br/><br/>
+<b>k. Ponerse en contacto con E-QUIPU</b> <br/>
+Si usted tiene alguna pregunta sobre nuestra política de privacidad o cómo acceder a su
+información personal, puede ponerse en contacto con nosotros enviando su solicitud
+al correo electrónico contacto@e-quipu.pe. <br/><br/>
+Escrito en Lima, el 7 de agosto del 2015 por el Grupo de Investigación del Trabajo en Equipo y
+Emprendimiento de la Pontificia Universidad Católica del Perú.  <br/><br/>
+<b>EL USO DE PROFEPLUS IMPLICA LA ACEPTACIÓN DE LOS TÉMINOS DESCRITOS.</b><br/><br/>
+© Pontificia Universidad Católica del Perú | Red de Emprendedores E-QUIPU]]>
+</string>
+    <string name="hint_email">e-mail</string>
+    <string name="hint_password">contraseña</string>
+    <string name="msg_complete_evaluation_duration">Complete duración de la evaluación.</string>
+    <string name="msg_type_least_course_name">Llene al menos el nombre del curso.</string>
+    <string name="text_question_abrev">Preg.</string>
+    <string name="text_score_abrev">Ptje.</string>
+    <string name="msg_hello_username">¡Bienvenido %1$s!</string>
+    <string name="text_lost_connection">Conexión Perdida</string>
+    <string name="text_try_again">Reintentar</string>
+    <string name="text_exit">Salir</string>
+    <string name="msg_hello_username_f">¡Bienvenida %1$s!</string>
+    <string name="text_legend_survey">A: %1$s\nB: %2$s\nC: %3$s\nD: %4$s\nE: %5$s</string>
+    <string name="quote_student_session">¡ELEVA TUS COMPETENCIAS Y\n EMPRENDE TU PASIÓN!
+        \nVisita: www.E-QUIPU.pe</string>
+    <string name="quote_student_session_land">¡ELEVA TUS COMPETENCIAS Y EMPRENDE TU PASIÓN!
+        \nVisita: www.E-QUIPU.pe</string>
+    <string name="text_total">Total</string>
+
+    <string name="text_motivation">¿Qué nos Motiva?</string>
+    <string name="text_why_use">¿Por qué usarlo?</string>
+    <string name="text_creators">Creadores de\nProfePlus</string>
+    <string name="text_motivation_land">Por qué se creó ProfePlus</string>
+    <string name="text_why_use_land">Por qué usar ProfePlus</string>
+    <string name="text_creators_land">Creadores de ProfePlus</string>
+    <string name="text_comite">Comité consultivo</string>
+    <string name="text_thanks">Agradecimientos</string>
+    <string name="text_benefits_teacher">Beneficios para los profesores</string>
+    <string name="text_benefits_student">Beneficios para los estudiantes</string>
+    <string name="text_benefits_society">Beneficios para la sociedad</string>
+    <string name="text_why_use_profeplus">POR QUÉ USAR PROFEPLUS</string>
+    <string name="text_why_use_content">ProfePlus está dirigido a profesores y estudiantes,
+        de nivel básico o superior, que tengan deseos de innovar en la enseñanza.
+        Principalmente, buscamos que sea usado por personas con espíritu rebelde ante los
+        resultados actuales de educación, producto de métodos tradicionales de enseñanza.\n\n
+Luego de los análisis y estudios realizados, podemos asegurar que al utilizar ProfePlus se
+        logra beneficiar a profesores, estudiantes y a la sociedad.\n\n
+</string>
+    <string name="text_benefits_teacher_content">El uso de ProfePlus permite al profesor conocer,
+        en tiempo real, el avance de la clase. Este sistema facilita al profesor ver en un gráfico
+        qué opciones de respuestas han elegido los estudiantes ante una pregunta de conceptos
+        planteada en la clase. De este modo el profesor puede elegir su mejor estrategia para
+        asegurar el aprendizaje del curso.\n\n
+¿Por qué es tan importante que el profesor sepa la proporción de estudiantes que realmente le han
+        comprendido? Esto lo consideramos clave pues, en muchas ocasiones, cuando los profesores
+        (luego de explicar algún concepto) preguntan \"por favor, en caso alguien no haya entendido,
+        levanten la mano\", lo común es que pocos o nadie de los estudiantes indique que tiene
+        dudas (quizás por temor a que sus compañeros lo señalen por si se equivocó). Luego,
+        el profesor, creyendo que los conceptos han sido comprendidos, siguen avanzando con otros
+        temas, mientras los estudiantes se enfocan sólo en buscar medios para aprobar el curso,
+        en lugar de aprenderlo bien. Si consideramos también que \"no se defiende lo que no
+        se comprende\", comprenderemos por qué es importante que se interioricen los
+        conceptos de cada curso.\n\n
+
+Un tema importante de resaltar es que la clase de vuelve mucho más dinámica,
+        posicionando al estudiante con un rol más activo. El paso 2 (trabajo en equipo) implica
+        dos preguntas reto que asegura el aprendizaje de los conceptos, así como estimular la
+        imaginación y generación de preguntas. Esto lo consideramos necesario, pues el sistema
+        tradicional de enseñanza solamente impulsa a los estudiantes a responder, calcular o
+        hallar incógnitas (como \"hallar X\"). Esto posibilita a que los estudiantes a futuro
+        puedan argumentar más fácilmente sus ideas con fundamentos sólidos; así como
+        experimentar y comprobar la efectividad del trabajo en equipo.\n\n
+
+Además, los análisis realizados mostraron que el profesor, que sigue el manual de uso de
+        ProfePlus y sigue el protocolo planteado, a diferencia del uso del método tradicional,
+        genera que sus estudiantes consideren mejor a su profesor por: (1) su calidad de enseñanza,
+        (2) incrementar los conocimientos y competencias de sus estudiantes en la clase,
+        (3) su uso de preguntas o mención a situaciones que despiertan el interés,
+        (4) mostrar interés por el progreso en el aula, (5) incrementar su interés en el
+        área del curso; entre otros.\n\n
+</string>
+    <string name="text_benefits_society_content">
+        La sociedad necesita ciudadanos que generen e impulsen innovación. Esto es palpable,
+        y comprendamos por innovación a todo aquello que implique la implementación de una
+        creación o mejora de un producto o servicio que genere una mejora sustancial. Esta
+        mejora puede realizarse en una organización, pública o privada, a
+        beneficio de la sociedad.\n\n
+
+Ahora, ¿de dónde salen los innovadores?  Las innovaciones implican implementar cambios que
+        generen mejoras, que agreguen valor. En muchos ámbitos (como el contexto educativo)
+        es comúnmente difícil hacer realidad los cambios que necesitamos. ¿Los cambios que
+        agregan valor son producto de alguna\"mano invisible\"? Nosotros creemos que no, pues los
+        cambios son producidos por personas; y en ámbitos difíciles y que encierran inclusive
+        peligro. Estas personas, para lograr dicho fin, para implementar los cambios que
+        necesita la sociedad, deben ser considerados por sus pares como líderes. Sí, líderes.
+        Es decir, para generar innovación (que en sí es implementar cambios que agreguen valor)
+        es necesario contar con líderes, que convenzan con sus acciones e ideas a hacer realidad
+        los cambios que se necesitan.\n\n
+
+¿De dónde salen los líderes? Existen diversas e innumerables investigaciones que puede
+        responder esta pregunta. Nosotros creemos que para generar los líderes que necesitamos,
+        es necesario que los estudiantes culminen sus estudios con competencias que les
+        faciliten liderar. Que sepan trabajar en equipo, que se comuniquen apropiadamente,
+        fundamentando sus ideas y opiniones. Que se atrevan a enfrentar situaciones difíciles.
+        Hacer frente a ello es lo que definimos como emprendimiento.\n\n
+
+El emprendimiento es hacer realidad cualquier acción o proyecto, especialmente si encierra
+        dificultad o peligro. Esto está abierto a cualquier ámbito de emprendimiento, sea
+        social, cultural o empresarial. Es decir, para forjar innovación, es necesario
+        contar con líderes. Para contar con líderes, es necesario estimular el emprendimiento.\n\n
+
+Las personas que emprenden están confiadas en sus competencias de trabajo en equipo y
+        participación en proyectos; y son estas competencias las que son trabajadas en
+        ProfePlus. Confiamos, de este modo, que contribuiremos a la sociedad con ciudadanos
+        confiados en emprender y capaces de innovar. Sí es posible.\n\n
+    </string>
+    <string name="text_benefits_student_content">
+        Los estudiantes, de cualquier nivel o disciplina, usando ProfePlus, además de mejorar
+        el aprendizaje de conceptos, podrán sentirse más confiados en el desarrollo de
+        competencias que son consideradas clave en el siglo XXI, como el trabajo en equipo,
+        participación en proyectos, aprendizaje autónomo, entre otras.\n\n
+
+Aplicando ProfePlus facilitamos mayor participación del estudiante en la clase y de manera
+        anónima. ¿Cómo? Cuando el profesor plantea una pregunta en el aula e invita a los
+        estudiantes a brindar sus opiniones, muchas veces los estudiantes no comunican sus
+        verdaderas opiniones, ya sea por temor a críticas o para evitar ser tildado de mal
+        estudiante por sus compañeros de clase o el profesor. Por ello, ProfePlus permite
+        que los estudiantes envíen sus respuestas de manera anónima a las preguntas
+        planteadas por profesor, tanto luego de un análisis individual (paso 1) y luego de un
+        trabajo en equipo con su par (paso 2).\n\n
+
+El uso de ProfePlus hace que una clase con métodos tradicionales de enseñanza se vuelva
+        más dinámica. Esto se logra en el paso 2, en el trabajo en equipo (basado en la
+        instrucción por pares). El trabajo en equipo implica dos preguntas reto que
+        solidifican los conceptos y estimula la generación de competencias que le
+        facilitará argumentar mejor sus ideas y trabajar en equipo. Esta interacción
+        posibilita aumentar la red de contactos y lazos de amistad, rompiendo hielo
+        rápidamente. Si consideramos que todos tenemos sueños por lograr en nuestras vidas,
+        estos se materializarán más fácilmente si contamos con una red de contactos y amigos
+        grande; y muchos de ellos se generan en los salones de clase.\n\n
+
+    </string>
+    <string name="text_want_finish">¿Desea terminar?</string>
+    <string name="msg_score_by_question">Los puntajes por pregunta deben ser números enteros o con decimal 0.5</string>
+    <string name="finish_eval">End exam</string>
+    <string name="text_development">EN DESARROLLO</string>
+    <string name="text_update_answer">Actualizar Respuestas</string>
+    <string name="msg_connection_success">Con conexión.</string>
+    <string name="msg_connection_fails">Sin conexión.</string>
+    <string name="text_students">#Estudiantes</string>
+    <string name="text_is_same_lesson">¿Es la misma clase?</string>
+    <string name="msg_will_use_same_code">El código asignado en la pregunta previa se seguirá usando.</string>
+    <string name="text_want_logout">¿Desea cerrar su sesión?</string>
+    <string name="text_assign_same_code">LA CLAVE ES LA MISMA.</string>
+    <string name="text_emprender">¿Quieres Emprender?</string>
+    <string name="text_remember_student_update">IMPORTANTE:\n\nIndique a los estudiantes que presionen el botón \"Actualizar\".</string>
+    <string name="msg_login_guest_user">Para responder la pregunta,\ningrese los siguientes datos</string>
+    <string name="btn_enter_eval">Evaluación calificada</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_change_mode">Cambiar Modo</string>
+    <string name="text_producers">Fundadores</string>
+    <string name="text_creators_profeplus">Fundadores</string>
+    <string name="text_creators_name">Creadores de ProfePlus</string>
+    <string name="text_compartir">COMPARTIR</string>
+    <string name="text_competencia">Apoya a tu grupo</string>
+    <string name="text_concurso_group">Escriba el código del grupo que desea apoyar (opcional)</string>
+    <string name="text_concurso_institute">Nombre de la institución</string>
+    <string name="text_support_team">¿Desea apoyar algún grupo con tu descarga?</string>
+    <string name="text_group_name">Entra el grupo que quieres apoyar</string>
+    <string name="text_institute_for_group">Entra a que institución pertenece el grupo</string>
+    <string name="text_install_facebook">Facebook no está instalado.</string>
+    <string name="text_thank_for_sharing">¡Gracias por compartir!</string>
+    <string name="text_uncomplete_operation">No se completó la operación.</string>
+    <string name="text_can_start_step_one">PASO 1</string>
+    <string name="text_ask_type_code_to_students">Indique a los estudiantes que ingresen el número</string>
+    <string name="empty"></string>
+    <string name="text_want_finish_step_one_start_step_two">¿Desea terminar el Paso 1\ne iniciar el Paso 2?</string>
+    <string name="text_edit_profile">Editar Perfil</string>
+    <string name="text_iphone_users">Usuarios Apple:</string>
+    <string name="msg_iphone_users_hint"><![CDATA[
+    Para participar, ingrese desde\nsu iPhone al sitio web:<br/><br/><u><a href="https://www.profeplus.org">www.profeplus.org</a></u>]]>
+    </string>
+    <string name="version_name">Profeplus v%1$s Build %2$s</string>
+    <string name="txt_creation_title">¿Por qué se creó?</string>
+    <string name="txt_whytouse_title">¿Por qué usarlo?</string>
+    <string name="text_whatmotivation_content"><![CDATA[
+        El Equipo de ProfePlus está fuertemente motivado a cambiar la Educación.
+        Mejorar el proceso que se desarrolla en el aula para fomentar la MAGIA que había antes,
+        en la cual los estudiantes aprendan activamente y el docente se vuelva un facilitador del conocimiento.<br/><br/>
+        Esta propuesta ha tenido aceptación en un gran conjunto de estudiantes y profesores,
+        lo cual fue manifestado en el Coloquio por la Co-Innovación para el Trabajo en Equipo en el Aula de Clase,
+        celebrado el 1 y 2 de marzo del 2018 en la Pontificia Universidad Católica del Perú.
+        La declaratoria abierta de dicha actividad se puede apreciar
+        <a href="http://departamento.pucp.edu.pe/ciencias/noticias/coloquio-por-la-co-innovacion-y-el-trabajo-en-equipo-en-el-aula-de-clase/">aquí</a>
+    ]]></string>
+    <string name="text_motivation_title">¿Qué nos Motiva?</string>
+    <string name="text_close_session">Cerrar Sesión</string>
+    <string name="text_como_usar_profeplus">Cómo usar ProfePlus</string>
+    <string name="text_testimonios">Testimonios</string>
+    <string name="text_coloquios">Coloquio</string>
+
+
+</resources>

@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context="com.equipu.profeplus.fragments.board.ProducersFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_above="@id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"/>
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/large_margin"
+                android:layout_marginRight="@dimen/large_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginBottom="@dimen/normal_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/big_font"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/text_creators_profeplus"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_marginRight="@dimen/large_margin"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/huge_margin"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/big_font"
+                        android:text="@string/text_advice_content_start" />
+
+                    <TextView
+                        android:id="@+id/txt_creators_names"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_marginRight="@dimen/large_margin"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:textColor="@color/blue"
+                        android:gravity="left"
+                        android:textSize="@dimen/big_font"
+                        android:text="@string/text_creators_name" />
+
+                    <TextView
+                        android:id="@+id/txt_creators_names_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_marginRight="@dimen/large_margin"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="@dimen/big_font"/>
+
+                    <TextView
+                        android:id="@+id/txt_thanks"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_marginRight="@dimen/large_margin"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:textColor="@color/blue"
+                        android:gravity="left"
+                        android:textSize="@dimen/big_font"
+                        android:text="@string/text_thanks" />
+
+                    <TextView
+                        android:id="@+id/txt_thanks_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_marginRight="@dimen/large_margin"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:textSize="@dimen/big_font"/>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>L
+
+    </RelativeLayout>
+
+</FrameLayout>

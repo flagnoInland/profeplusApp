@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.SessionCodeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"></include>
+
+
+        <ScrollView
+            android:layout_above="@+id/btn_next"
+            style="@style/scrollview_border">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_can_start"
+                    style="@style/style_text_x"
+                    android:text="@string/text_can_start"/>
+
+
+                <TextView
+                    android:id="@+id/txt_write_code"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_show_code_to_student_board"/>
+
+                <TextView
+                    android:id="@+id/edt_rand_code_session"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/null_value_txt"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:padding="@dimen/big_padding"
+                    android:textSize="@dimen/extra_huge_font"
+                    android:layout_gravity="center" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/huge_margin" />
+
+                <TextView
+                    android:id="@+id/txt_message_results_mail"
+                    style="@style/style_text_xx"
+                    android:text="@string/msg_results_send_via_mail"/>
+
+                <Button
+                    android:id="@+id/btn_results"
+                    style="@style/default_app_boton_orange"
+                    android:text="@string/text_next"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/normal_padding" />
+
+                <Button
+                    android:id="@+id/btn_handout"
+                    style="@style/default_app_boton"
+                    android:text="@string/text_user_student_manual"/>
+
+                <Button
+                    android:id="@+id/btn_finish"
+                    style="@style/default_app_boton"
+                    android:contentDescription="btnFinishSessionCode"
+                    android:text="@string/text_terminate"/>
+
+                <Button
+                    android:id="@+id/btn_save"
+                    style="@style/default_app_boton"
+                    android:contentDescription="btnSaveSessionCode"
+                    android:text="@string/text_save"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

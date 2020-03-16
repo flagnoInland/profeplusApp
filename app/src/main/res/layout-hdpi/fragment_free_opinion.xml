@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.FreeOpinionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"></include>
+
+        <ScrollView
+            style="@style/scrollview_border">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_opinion_question"
+                    style="@style/style_text_x"
+                    android:text="@string/text_which_opinion_want"/>
+
+                <Button
+                    android:id="@+id/chkb_opinion1"
+                    style="@style/default_app_toggle"
+                    android:text="@string/text_satisfaction_level" />
+
+
+                <Button
+                    android:id="@+id/chkb_opinion2"
+                    style="@style/default_app_toggle"
+                    android:text="@string/text_agreement_level" />
+
+                <Button
+                    android:id="@+id/chkb_opinion3"
+                    style="@style/default_app_toggle"
+                    android:text="@string/text_qualification" />
+
+                <Button
+                    android:id="@+id/chkb_opinion4"
+                    style="@style/default_app_toggle"
+                    android:text="@string/text_speaker_examination" />
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

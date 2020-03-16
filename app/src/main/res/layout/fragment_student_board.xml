@@ -1,0 +1,192 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.equipu.profeplus.fragments.board.StudentBoardFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/app_fondo">
+
+        <LinearLayout
+            android:id="@+id/botones"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+
+            <Button
+                android:id="@+id/start_task_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/huge_margin"
+                android:layout_marginRight="@dimen/huge_margin"
+                android:layout_marginBottom="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:visibility="gone"
+                android:paddingTop="@dimen/large_margin"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_orange"
+                android:textAllCaps="true"
+                android:text="@string/btn_enter_class" />
+
+            <Button
+                android:id="@+id/btn_read_manual"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/huge_margin"
+                android:layout_marginRight="@dimen/huge_margin"
+                android:layout_marginBottom="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:paddingTop="@dimen/large_margin"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_purple"
+                android:textAllCaps="true"
+                android:text="@string/text_user_student_manual" />
+
+            <Button
+                android:id="@+id/start_eval_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/huge_margin"
+                android:layout_marginRight="@dimen/huge_margin"
+                android:layout_marginBottom="@dimen/normal_margin"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/large_margin"
+                android:paddingTop="@dimen/large_margin"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_orange"
+                android:textAllCaps="true"
+                android:text="@string/btn_enter_eval" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="@dimen/normal_font"
+                android:background="@color/verde">
+
+                <TextView
+                    android:id="@+id/quote_pick_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_font"
+                    android:text="@string/quote_student_session">
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/botones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template6b"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_ejercicio"
+                    android:clickable="true"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:layout_marginBottom="@dimen/normal_margin"
+                    android:layout_marginLeft="@dimen/huge_margin"
+                    android:layout_marginRight="@dimen/huge_margin"
+                    android:padding="@dimen/big_margin">
+
+                    <TextView
+                        android:id="@+id/txt_welcome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/big_margin"
+                        android:textSize="@dimen/big_font"
+                        android:textColor="@color/verde"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/welcome_code_msg"
+                            android:layout_centerInParent="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/msg_type_code_teacher_shows"
+                            android:textColor="@color/gris"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/big_font"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:layout_centerInParent="true"
+                            android:id="@+id/edtinputcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/verde"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/extra_huge_font"
+                            android:maxLength="4"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:padding="@dimen/normal_padding"
+                            android:background="@color/twhite1"/>
+
+                    </RelativeLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="invisible"/>
+
+</FrameLayout>

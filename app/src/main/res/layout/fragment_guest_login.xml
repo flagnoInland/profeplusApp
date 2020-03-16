@@ -1,0 +1,173 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context="com.equipu.profeplus.fragments.student_job.GuestLoginFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_fondo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"/>
+
+            <ScrollView
+                style="@style/scrollview_border_small">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_space" />
+
+                    <TextView
+                        android:id="@+id/txt_message_login"
+                        style="@style/style_text_x"
+                        android:text="@string/msg_login_guest_user"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_space" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+
+                            <AutoCompleteTextView
+                                android:layout_centerVertical="true"
+                                android:id="@+id/edt_username"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/login_image_height"
+                                android:drawableLeft="@drawable/login_usermail"
+                                android:textColor="@color/verde"
+                                android:clickable="true"
+                                android:textStyle="bold"
+                                android:textSize="@dimen/big_font"
+                                android:inputType="text"
+                                android:maxLength="40"
+                                android:completionThreshold="1"
+                                android:paddingLeft="16dp"
+                                android:background="@drawable/login_box"
+                                android:hint="@string/text_email" />
+
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/big_space" />
+
+                        <LinearLayout
+                            android:id="@+id/lay_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+
+                            <EditText
+                                android:layout_centerVertical="true"
+                                android:id="@+id/edt_password"
+                                android:drawableLeft="@drawable/login_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/login_image_height"
+                                android:textColor="@color/verde"
+                                android:textStyle="bold"
+                                android:textSize="@dimen/big_font"
+                                android:inputType="textPassword"
+                                android:clickable="true"
+                                android:hint="@string/text_password"
+                                android:paddingLeft="16dp"
+                                android:background="@drawable/login_box"
+                                android:maxLength="40"/>
+
+
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/large_margin" />
+
+                        <Button
+                            android:id="@+id/btn_accept"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="0dp"
+                            android:textSize="@dimen/normal_font"
+                            android:textColor="@color/white"
+                            android:background="@drawable/button_round_purple"
+                            android:paddingLeft="@dimen/big_padding"
+                            android:paddingRight="@dimen/big_padding"
+                            android:paddingBottom="@dimen/big_padding"
+                            android:paddingTop="@dimen/big_padding"
+                            android:textAllCaps="true"
+                            android:text="@string/text_accept"/>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/big_padding" />
+
+                        <Button
+                            android:id="@+id/btn_cancel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="0dp"
+                            android:paddingLeft="@dimen/big_padding"
+                            android:paddingRight="@dimen/big_padding"
+                            android:paddingBottom="@dimen/big_padding"
+                            android:paddingTop="@dimen/big_padding"
+                            android:textSize="@dimen/normal_font"
+                            android:textColor="@color/white"
+                            android:background="@drawable/button_round_green"
+                            android:textAllCaps="true"
+                            android:text="@string/text_cancel"/>
+
+
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

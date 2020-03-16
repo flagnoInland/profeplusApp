@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.EvaluationStepFourFragment">
+
+    <LinearLayout
+        android:layout_above="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"></include>
+
+        <ScrollView
+            style="@style/scrollview_border_land">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_optional"
+                    style="@style/style_text_x"
+                    android:text="@string/text_optional"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_observation"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_observation"
+                        style="@style/default_app_input_xx"
+                        android:nextFocusDown="@+id/chck_calculator"/>
+
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_padding" />
+
+                <TextView
+                    android:id="@+id/txt_materials"
+                    style="@style/style_text_x"
+                    android:text="@string/text_materials_to_use"/>
+
+                <CheckBox
+                    android:id="@+id/chck_calculator"
+                    style="@style/default_app_checkbox"
+                    android:text="@string/text_calculator"/>
+
+                <CheckBox
+                    android:id="@+id/chck_notes"
+                    style="@style/default_app_checkbox"
+                    android:text="@string/text_notes"/>
+
+                <CheckBox
+                    android:id="@+id/chck_books"
+                    style="@style/default_app_checkbox"
+                    android:text="@string/text_books"/>
+
+                <CheckBox
+                    android:id="@+id/chck_computer"
+                    style="@style/default_app_checkbox"
+                    android:text="@string/text_computer"/>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_padding" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    style="@style/default_app_boton_land"
+                    android:textAllCaps="true"
+                    android:contentDescription="btnNextStepFourEvaluation"
+                    android:text="@string/text_next"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_padding" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

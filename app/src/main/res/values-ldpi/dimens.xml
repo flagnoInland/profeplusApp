@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="test_scroll">50dp</dimen>
+    <dimen name="test_scroll2">200dp</dimen>
+
+    <dimen name="small_space">4dp</dimen>
+    <dimen name="normal_space">8dp</dimen>
+    <dimen name="big_space">12dp</dimen>
+
+    <dimen name="tiny_font">10dp</dimen>
+    <dimen name="small_font">11dp</dimen>
+    <dimen name="normal_font">13dp</dimen>
+    <dimen name="big_font">16dp</dimen>
+    <dimen name="large_font">20dp</dimen>
+    <dimen name="huge_font">28dp</dimen>
+    <dimen name="extra_big_font">30dp</dimen>
+    <dimen name="extra_large_font">32dp</dimen>
+    <dimen name="extra_huge_font">48dp</dimen>
+
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="big_margin">16dp</dimen>
+    <dimen name="large_margin">22dp</dimen>
+    <dimen name="huge_margin">40dp</dimen>
+    <dimen name="xl_margin">48dp</dimen>
+    <dimen name="xxl_margin">56dp</dimen>
+    <dimen name="xxxl_margin">64dp</dimen>
+
+    <dimen name="tiny_padding">3dp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="normal_padding">8dp</dimen>
+    <dimen name="big_padding">11dp</dimen>
+    <dimen name="large_padding">15dp</dimen>
+
+    <dimen name="login_image_height">48dp</dimen>
+    <dimen name="logo_login_height">40dp</dimen>
+    <dimen name="chart_height">130dp</dimen>
+    <dimen name="icon_refresh_size">40dp</dimen>
+    <dimen name="subtitle_height">30dp</dimen>
+    <dimen name="title_height">60dp</dimen>
+    <dimen name="logo_height">40dp</dimen>
+    <dimen name="wheel_side">250dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+
+    <dimen name="size_x">40dp</dimen>
+    <dimen name="size_xx">80dp</dimen>
+    <dimen name="size_xxx">140dp</dimen>
+    <dimen name="size_xxxx">160dp</dimen>
+    <dimen name="size_xxxxx">240dp</dimen>
+
+    <dimen name="size_y">60dp</dimen>
+    <dimen name="size_yy">80dp</dimen>
+    <dimen name="size_yyy">110dp</dimen>
+    <dimen name="size_yyyy">140dp</dimen>
+    <dimen name="size_yyyyy">170dp</dimen>
+
+
+</resources>

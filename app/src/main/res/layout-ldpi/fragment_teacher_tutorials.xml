@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.equipu.profeplus.fragments.board.TeacherTutorialsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_fondo"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"/>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/title_height"
+            android:layout_marginLeft="@dimen/huge_margin"
+            android:layout_marginRight="@dimen/huge_margin">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+
+            <Button
+                android:id="@+id/btn_read_protocol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_gold"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/big_margin"
+                android:paddingTop="@dimen/big_margin"
+                android:textAllCaps="false"
+                android:text="@string/text_protocol_teach"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_read_manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/big_margin"
+                android:paddingTop="@dimen/big_margin"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_green"
+                android:textAllCaps="false"
+                android:text="@string/text_use_manual"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_read_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:paddingBottom="@dimen/big_margin"
+                android:paddingTop="@dimen/big_margin"
+                android:textSize="@dimen/large_font"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round_purple"
+                android:textAllCaps="false"
+                android:text="@string/text_ask_question_manual"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big_space" />
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/verde">
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            app:srcCompat="?attr/ic_back"
+            android:adjustViewBounds="true"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/btn_edit_user"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:layout_gravity="center"
+            app:srcCompat="?attr/ic_edit_profile"
+            android:adjustViewBounds="true" />
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/btn_becas"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:layout_gravity="center"
+            app:srcCompat="?attr/ic_becas"
+            android:adjustViewBounds="true" />
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/btn_user_mode"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:layout_gravity="center"
+            app:srcCompat="?attr/ic_user_mode"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:id="@+id/btn_share"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:layout_gravity="center"
+            app:srcCompat="?attr/ic_share"
+            android:adjustViewBounds="true" />
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_exit"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            app:srcCompat="?attr/ic_close"
+            android:adjustViewBounds="true"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+</merge>

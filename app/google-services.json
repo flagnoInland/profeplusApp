@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "905859445338",
+    "firebase_url": "https://profeplus-181e3.firebaseio.com",
+    "project_id": "profeplus-181e3",
+    "storage_bucket": "profeplus-181e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905859445338:android:e506e8464f184a1b",
+        "android_client_info": {
+          "package_name": "com.equipu.profeplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905859445338-ahtln1vqpq05q6sdgdktms8p0k3lvk28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.equipu.profeplus",
+            "certificate_hash": "C47D1DF1D48415C708503C428879A9236320D3FD"
+          }
+        },
+        {
+          "client_id": "905859445338-tj85b0go06703a24frcc9p5r7fhe96cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.equipu.profeplus",
+            "certificate_hash": "635404B6F3157828E1C6625F3ECEE7A4FA3989B7"
+          }
+        },
+        {
+          "client_id": "905859445338-inc8ufh4adrq4egiamr2k3b5fdhj9e6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFEWQAgH1F_WmgrK-PSnWvl6-GzL7QlJM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905859445338-inc8ufh4adrq4egiamr2k3b5fdhj9e6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.equipu.profeplus.fragments.teacher_job.ActiveEvaluationFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_create_evaluation"
+            android:layout_alignParentBottom="true"
+            style="@style/lower_app_button"
+            android:text="@string/text_create_evaluation"/>
+
+        <include layout="@layout/header_template4"></include>
+
+        <ScrollView
+            android:layout_above="@id/btn_create_evaluation"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/title_height">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_contenido"
+                    android:layout_margin="@dimen/big_margin"
+                    android:padding="@dimen/big_margin"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_header_active_evaluation"
+                        style="@style/style_text_x"
+                        android:text="@string/text_active_evaluation"/>
+
+
+                    <LinearLayout
+                        android:id="@+id/lay_eval_now"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_contenido"
+                    android:layout_margin="@dimen/big_margin"
+                    android:padding="@dimen/big_margin"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:id="@+id/txt_header_pending_evaluation"
+                        style="@style/style_text_x"
+                        android:text="@string/text_pending_evaluation"/>
+
+
+                    <LinearLayout
+                        android:id="@+id/lay_evaluations"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

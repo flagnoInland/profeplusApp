@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="ic_back1" format="reference"/>
+    <attr name="ic_close1" format="reference"/>
+    <attr name="ic_user_mode" format="reference"/>
+    <attr name="ic_back" format="reference"/>
+    <attr name="ic_edit_profile" format="reference"/>
+    <attr name="ic_becas" format="reference"/>
+    <attr name="ic_close" format="reference"/>
+    <attr name="ic_refresh1" format="reference"/>
+    <attr name="ic_share" format="reference"/>
+    <attr name="ic_iphone" format="reference"/>
+    <attr name="ic_delete" format="reference"/>
+    <attr name="icono_e" format="reference"/>
+    <attr name="icono_t" format="reference"/>
+
+</resources>

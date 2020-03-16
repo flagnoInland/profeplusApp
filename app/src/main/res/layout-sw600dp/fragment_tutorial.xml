@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+             android:background="@drawable/app_fondo"
+    tools:context="com.equipu.profeplus.fragments.TutorialFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_above="@id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"/>
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xxl_margin"
+                android:layout_marginRight="@dimen/xxl_margin"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginBottom="@dimen/normal_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/big_font"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/text_advice_start"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/xxl_margin"
+                android:layout_marginRight="@dimen/xxl_margin"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_margin"
+                        android:layout_marginRight="@dimen/large_margin"
+                        android:layout_marginTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/huge_margin"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="@dimen/big_font"
+                        android:text="@string/text_advice_content_start" />
+
+                    <ImageView
+                        android:id="@+id/img_page"
+                        android:layout_width="@dimen/size_xxx"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:adjustViewBounds="true"/>
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn_next"
+            style="@style/lower_app_button_land"
+            android:text="@string/text_next"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

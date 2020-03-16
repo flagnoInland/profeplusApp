@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.EvaluationStepOneFragment">
+
+    <LinearLayout
+        android:layout_above="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"></include>
+
+        <ScrollView
+            style="@style/scrollview_border">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_type_next_information"
+                    style="@style/style_text_x"
+                    android:text="@string/text_type_next_information"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_number_questions"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_number_questions"
+                        android:numeric="integer"
+                        style="@style/default_app_input_xx"/>
+
+                </RelativeLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_margin" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_overall_score"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_overall_score"
+                        android:numeric="integer"
+                        style="@style/default_app_input_xx"/>
+
+                </RelativeLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_margin" />
+
+                <TextView
+                    android:id="@+id/txt_choose_question_weight"
+                    style="@style/style_text_x"
+                    android:text="@string/text_choose_question_weight"/>
+
+                <Button
+                    android:id="@+id/btn_equal_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normal_font"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_round_gold"
+                    android:paddingLeft="@dimen/normal_margin"
+                    android:paddingRight="@dimen/normal_margin"
+                    android:paddingBottom="@dimen/big_margin"
+                    android:paddingTop="@dimen/big_margin"
+                    android:textAllCaps="true"
+                    android:text="@string/text_equal_weight"/>
+
+                <Button
+                    android:id="@+id/btn_different_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/large_margin"
+                    android:paddingLeft="@dimen/normal_margin"
+                    android:paddingRight="@dimen/normal_margin"
+                    android:paddingBottom="@dimen/big_margin"
+                    android:paddingTop="@dimen/big_margin"
+                    android:textSize="@dimen/normal_font"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_round_green"
+                    android:textAllCaps="true"
+                    android:text="@string/text_different_weight"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

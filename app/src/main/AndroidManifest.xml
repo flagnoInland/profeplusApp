@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.equipu.profeplus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".LearnApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <!-- meta-data android:name="io.fabric.ApiKey" android:value="3e8ca93c58e6d2f5c652b3dd3a0963daa3f9c89e" / -->
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1146926132073409"
+            android:exported="true" />
+
+        <service
+            android:name=".NetworkTeacherService"
+            android:enabled="true" />
+        <service
+            android:name=".NetworkStudentService"
+            android:enabled="true" />
+        <service
+            android:name=".NetworkBoardService"
+            android:enabled="true" />
+        <service
+            android:name=".NetworkStartService"
+            android:enabled="true" />
+        <service
+            android:name=".FinishEval"
+            android:enabled="true"
+            android:label="@string/finish_eval" />
+        <service
+            android:name=".SendMail"
+            android:enabled="true"
+            android:label="@string/service_mail" />
+        <service
+            android:name=".SendEval"
+            android:enabled="true"
+            android:label="@string/service_eval_mail" />
+
+        <activity
+            android:name=".activities.StartActivity"
+            android:launchMode="singleTop"
+            android:noHistory="false"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+        <activity
+            android:name=".activities.UserBoardActivity"
+            android:launchMode="singleTop"
+            android:noHistory="false"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.StudentJobActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.TeacherJobActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </activity>
+        <!--
+        activity android:name=".activities.MockActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity
+        -->
+        <activity android:name=".SplashActivity"
+            android:launchMode="singleTop"
+            android:noHistory="false"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cities">
+        <item>Amazonas</item>
+        <item>Ancash</item>
+        <item>Apurímac</item>
+        <item>Arequipa</item>
+        <item>Ayacucho</item>
+        <item>Cajamarca</item>
+        <item>Callao</item>
+        <item>Cusco</item>
+        <item>Huancavelica</item>
+        <item>Huanuco</item>
+        <item>Ica</item>
+        <item>Junin</item>
+        <item>La Libertad</item>
+        <item>Lambayeque</item>
+        <item>Lima</item>
+        <item>Loreto</item>
+        <item>Madre de Dios</item>
+        <item>Moquegua</item>
+        <item>Pasco</item>
+        <item>Piura</item>
+        <item>Puno</item>
+        <item>San Martín</item>
+        <item>Tacna</item>
+        <item>Tumbes</item>
+    </string-array>
+
+    <string-array name="question_speaker_array">
+        <item>Muy buen expositor o docente.</item>
+        <item>Buen expositor o docente.</item>
+        <item>Regular expositor o docente.</item>
+        <item>Debe mejorar.</item>
+        <item>Debe mejorar urgentemente.</item>
+    </string-array>
+
+    <string-array name="question_opinion1_array">
+        <item>Estoy muy satisfecho con lo planteado.</item>
+        <item>Estoy satisfecho con lo planteado.</item>
+        <item>Estoy regularmente satisfecho con lo planteado.</item>
+        <item>Estoy insatisfecho con lo planteado.</item>
+        <item>Estoy totalmente insatisfecho con lo planteado.</item>
+    </string-array>
+
+    <string-array name="question_opinion2_array">
+        <item>Estoy muy de acuerdo con lo planteado..</item>
+        <item>Estoy de acuerdo con lo planteado.</item>
+        <item>Estoy indeferente con lo planteado.</item>
+        <item>Estoy en desacuerdo con lo planteado.</item>
+        <item>Estoy totalmente en desacuerdo con lo planteado.</item>
+    </string-array>
+
+    <string-array name="question_opinion3_array">
+        <item>Muy alta calificación</item>
+        <item>Alta calificación</item>
+        <item>Regular calificación</item>
+        <item>Baja calificación</item>
+        <item>Muy baja calificación</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="countries_array">
+        <item>Afganistán</item>
+        <item>Akrotiri</item>
+        <item>Albania</item>
+        <item>Alemania</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguila</item>
+        <item>Antártida</item>
+        <item>Antigua y Barbuda</item>
+        <item>Antillas Neerlandesas</item>
+        <item>Arabia Saudí</item>
+        <item>Arctic Ocean</item>
+        <item>Argelia</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Ashmore and Cartier Islands</item>
+        <item>Atlantic Ocean</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaiyán</item>
+        <item>Bahamas</item>
+        <item>Bahráin</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Bélgica</item>
+        <item>Belice</item>
+        <item>Benín</item>
+        <item>Bermudas</item>
+        <item>Bielorrusia</item>
+        <item>Birmania; Myanmar</item>
+        <item>Bolivia</item>
+        <item>Bosnia y Hercegovina</item>
+        <item>Botsuana</item>
+        <item>Brasil</item>
+        <item>Brunéi</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Bután</item>
+        <item>Cabo Verde</item>
+        <item>Camboya</item>
+        <item>Camerún</item>
+        <item>Canadá</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Chipre</item>
+        <item>Clipperton Island</item>
+        <item>Colombia</item>
+        <item>Comoras</item>
+        <item>Congo</item>
+        <item>Coral Sea Islands</item>
+        <item>Corea del Norte</item>
+        <item>Corea del Sur</item>
+        <item>Costa de Marfil</item>
+        <item>Costa Rica</item>
+        <item>Croacia</item>
+        <item>Cuba</item>
+        <item>Dhekelia</item>
+        <item>Dinamarca</item>
+        <item>Dominica</item>
+        <item>Ecuador</item>
+        <item>Egipto</item>
+        <item>El Salvador</item>
+        <item>El Vaticano</item>
+        <item>Emiratos Árabes Unidos</item>
+        <item>Eritrea</item>
+        <item>Eslovaquia</item>
+        <item>Eslovenia</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Estonia</item>
+        <item>Etiopía</item>
+        <item>Filipinas</item>
+        <item>Finlandia</item>
+        <item>Fiyi</item>
+        <item>Francia</item>
+        <item>Gabón</item>
+        <item>Gambia</item>
+        <item>Gaza Strip</item>
+        <item>Georgia</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Granada</item>
+        <item>Grecia</item>
+        <item>Groenlandia</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea Ecuatorial</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungría</item>
+        <item>India</item>
+        <item>Indian Ocean</item>
+        <item>Indonesia</item>
+        <item>Irán</item>
+        <item>Iraq</item>
+        <item>Irlanda</item>
+        <item>Isla Bouvet</item>
+        <item>Isla Christmas</item>
+        <item>Isla Norfolk</item>
+        <item>Islandia</item>
+        <item>Islas Caimán</item>
+        <item>Islas Cocos</item>
+        <item>Islas Cook</item>
+        <item>Islas Feroe</item>
+        <item>Islas Georgia del Sur y Sandwich del Sur</item>
+        <item>Islas Heard y McDonald</item>
+        <item>Islas Malvinas</item>
+        <item>Islas Marianas del Norte</item>
+        <item>Islas Marshall</item>
+        <item>Islas Pitcairn</item>
+        <item>Islas Salomón</item>
+        <item>Islas Turcas y Caicos</item>
+        <item>Islas Vírgenes Americanas</item>
+        <item>Islas Vírgenes Británicas</item>
+        <item>Israel</item>
+        <item>Italia</item>
+        <item>Jamaica</item>
+        <item>Jan Mayen</item>
+        <item>Japón</item>
+        <item>Jersey</item>
+        <item>Jordania</item>
+        <item>Kazajistán</item>
+        <item>Kenia</item>
+        <item>Kirguizistán</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Laos</item>
+        <item>Lesoto</item>
+        <item>Letonia</item>
+        <item>Líbano</item>
+        <item>Liberia</item>
+        <item>Libia</item>
+        <item>Liechtenstein</item>
+        <item>Lituania</item>
+        <item>Luxemburgo</item>
+        <item>Macao</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malasia</item>
+        <item>Malaui</item>
+        <item>Maldivas</item>
+        <item>Malí</item>
+        <item>Malta</item>
+        <item>Man, Isle of</item>
+        <item>Marruecos</item>
+        <item>Mauricio</item>
+        <item>Mauritania</item>
+        <item>Mayotte</item>
+        <item>México</item>
+        <item>Micronesia</item>
+        <item>Moldavia</item>
+        <item>Mónaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Mozambique</item>
+        <item>Mundo</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Navassa Island</item>
+        <item>Nepal</item>
+        <item>Nicaragua</item>
+        <item>Níger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Noruega</item>
+        <item>Nueva Caledonia</item>
+        <item>Nueva Zelanda</item>
+        <item>Omán</item>
+        <item>Pacific Ocean</item>
+        <item>Países Bajos</item>
+        <item>Pakistán</item>
+        <item>Palaos</item>
+        <item>Panamá</item>
+        <item>Papúa-Nueva Guinea</item>
+        <item>Paracel Islands</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Polinesia Francesa</item>
+        <item>Polonia</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Reino Unido</item>
+        <item>República Centroafricana</item>
+        <item>República Checa</item>
+        <item>República Democrática del Congo</item>
+        <item>República Dominicana</item>
+        <item>Ruanda</item>
+        <item>Rumania</item>
+        <item>Rusia</item>
+        <item>Sáhara Occidental</item>
+        <item>Samoa</item>
+        <item>Samoa Americana</item>
+        <item>San Cristóbal y Nieves</item>
+        <item>San Marino</item>
+        <item>San Pedro y Miquelón</item>
+        <item>San Vicente y las Granadinas</item>
+        <item>Santa Helena</item>
+        <item>Santa Lucía</item>
+        <item>Santo Tomé y Príncipe</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leona</item>
+        <item>Singapur</item>
+        <item>Siria</item>
+        <item>Somalia</item>
+        <item>Southern Ocean</item>
+        <item>Spratly Islands</item>
+        <item>Sri Lanka</item>
+        <item>Suazilandia</item>
+        <item>Sudáfrica</item>
+        <item>Sudán</item>
+        <item>Suecia</item>
+        <item>Suiza</item>
+        <item>Surinam</item>
+        <item>Svalbard y Jan Mayen</item>
+        <item>Tailandia</item>
+        <item>Taiwán</item>
+        <item>Tanzania</item>
+        <item>Tayikistán</item>
+        <item>Territorio Británico del Océano Indico</item>
+        <item>Territorios Australes Franceses</item>
+        <item>Timor Oriental</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad y Tobago</item>
+        <item>Túnez</item>
+        <item>Turkmenistán</item>
+        <item>Turquía</item>
+        <item>Tuvalu</item>
+        <item>Ucrania</item>
+        <item>Uganda</item>
+        <item>Unión Europea</item>
+        <item>Uruguay</item>
+        <item>Uzbekistán</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wake Island</item>
+        <item>Wallis y Futuna</item>
+        <item>West Bank</item>
+        <item>Yemen</item>
+        <item>Yibuti</item>
+        <item>Zambia</item>
+        <item>Zimbabue</item>
+    </string-array>
+
+    <string-array name="answer_key_array">
+        <item> </item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+
+    <string-array name="answer_key_true">
+        <item> </item>
+        <item>V</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="level_array">
+        <item>No seleccionado</item>
+        <item>Secundaria</item>
+        <item>Primaria</item>
+    </string-array>
+
+    <string-array name="grade_array">
+        <item>No seleccionado</item>
+        <item>1ro</item>
+        <item>2do</item>
+        <item>3ro</item>
+        <item>4to</item>
+        <item>5to</item>
+        <item>6to</item>
+    </string-array>
+
+    <string-array name="title_protocol">
+        <item>Página 1/10</item>
+        <item>Página 2/10</item>
+        <item>Página 3/10</item>
+        <item>Página 4/10</item>
+        <item>Página 5/10</item>
+        <item>Página 6/10</item>
+        <item>Página 7/10</item>
+        <item>Página 8/10</item>
+        <item>Página 9/10</item>
+        <item>Página 10/10</item>
+    </string-array>
+
+    <string-array name="content_protocol" formatted="false">
+        <item>Con este sistema podremos saber cuántos estudiantes responden correctamente a preguntas planteadas en la clase y fomentar en ellos el trabajo en equipo.</item>
+        <item>Indique a los estudiantes el número de cuatro dígitos que aparece en la pantalla y escríbalo en la pizarra. Con ese número ellos ingresarán a esta clase.</item>
+        <item>Comente a los estudiantes que sus respuestas son anónimas y que este sistema les ayudará a aprender en sólo dos pasos.</item>
+        <item>Paso 1: Indíquenles que en silencio, y de manera individual, marquen la alternativa correcta a la pregunta que se planteó.</item>
+        <item>Motive a su salón de clase y así evitará tener estudiantes sin responder (SR). Los resultados los verá en su pantalla en un gráfico.</item>
+        <item>Para empezar el paso 2 (trabajo en equipo) pulse el botón \"Terminar paso 1\". Luego, pulse \"Iniciar paso 2\".</item>
+        <item>Paso 2: Invite a cada estudiante a trabajar en equipo con su compañero más cercano para resolver la pregunta (metodología \"instrucción por pares\").</item>
+        <item>Luego podrá ver la comparación de las respuestas (el paso 2 ayuda a aumentar la cantidad de respuestas correctas).</item>
+        <item>En el paso 2 sugerimos que cada estudiante haga las dos preguntas reto a su compañero (ambas aparecen en sus pantallas). Luego contestarán individualmente.</item>
+        <item>Si más del 70% respondió la alternativa correcta, se puede considerar avanzar con el siguiente concepto que debe enseñarse. Caso contrario, realice otras preguntas sobre ese mismo concepto hasta lograr superar el 70% de respuestas correctas.\n\nPara mayor detalle, puede consultar también el PROTOCOLO.</item>
+    </string-array>
+
+    <string-array name="manual_student_titles">
+        <item>Página 1/5</item>
+        <item>Página 2/5</item>
+        <item>Página 3/5</item>
+        <item>Página 4/5</item>
+        <item>Página 5/5</item>
+    </string-array>
+
+    <string-array name="manual_student_content">
+        <item>Con este sistema aprenderás más, respondiendo las preguntas planteadas en la clase.</item>
+        <item>El docente te dictará un número de cuatro dígitos, que debes colocar en el recuadro. Luego pulsa \"ENTRAR A CLASE\".</item>
+        <item>Para responder la pregunta, planteada por el docente, debes seguir los dos pasos siguientes.</item>
+        <item>Paso 1: marca la alternativa correcta. Luego, atiende las indicaciones del profesor y espera a que se active el siguiente paso.</item>
+        <item>Paso 2: hazle las dos preguntas que saldrán en la pantalla a un compañero cercano a ti. Luego marca tu respuesta.</item>
+    </string-array>
+
+    <string-array name="array_yes_no">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string-array name="array_answer_keys">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>V</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="array_answer_keys_student">
+        <item>Elegir</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>V</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="title_protocol_main">
+        <item><b>INTRODUCCIÓN</b></item>
+        <item><b>ACCIÓN 1:\nComunicar a los estudiantes cómo descargar el App ProfePlus y la contraseña de acceso a Internet (wi-fi) del aula.</b></item>
+        <item><b>ACCIÓN 2:\nIndicar a los estudiantes el primer día la importancia de usar ProfePlus para que todos participen en el aula.</b></item>
+        <item><b>ACCIÓN 3:\nHacer énfasis a los estudiantes que el profesor no podrá saber las respuestas individuales.</b></item>
+        <item><b>ACCIÓN 4:\nIniciar el uso de ProfePlus con solamente un ejercicio por clase y leyéndola.</b></item>
+        <item><b>ACCIÓN 5:\nComprender la importancia de ejecutar el paso 2.</b></item>
+        <item><b>ACCIÓN 6:\nConsiderar el lenguaje no verbal para innovar en la enseñanza.</b></item>
+        <item><b>ACCIÓN 7:\nAlentar la participación de los estudiantes y sus ganas de curiosear en el curso (y evitar usar palabras poco positivas).</b></item>
+    </string-array>
+
+    <string-array name="content_protocol_main" formatted="false">
+        <item><![CDATA[
+Este protocolo se ha planteado de acuerdo a un análisis de la metodología de instrucción entre pares,
+los resultados de las clases modelo con el uso del aplicativo ProfePlus
+y la apreciación del equipo de profesionales del Grupo de Investigación del Trabajo en Equipo y Emprendimiento de la PUCP
+que están inmersos en este proyecto.<br/><br/>
+De acuerdo a la apreciación del GITEE, es recomendable que los docentes que deseen aplicar ProfePlus
+consideren el siguiente protocolo de diez pasos, para asegurar un mayor éxito en el incremento de conocimientos
+y competencias de los participantes.<br/><br/>
+Finalmente, comente su experiencia a colegas de su misma área
+o de otras disciplinas, y anímelos también a innovar en el aula.]]></item>
+        <item><![CDATA[
+        Para que los estudiantes puedan descargar ProfePlus en su Smartphone o Tablet deben tener acceso a Internet;
+        por ende, es necesario que el profesor o profesora escriba en la pizarra la contraseña wi-fi del aula,
+        para que todos descarguen el App.<br/><br/>
+También, el profesor podría enviarles a los estudiantes un Email antes de la clase,
+informándoles que se registren en ProfePlus, ya sea a través del App para Android,
+o a través del link <a href="https://www.profeplus.org">www.profeplus.org</a>.<br/><br/>
+Luego, el profesor debe abrir la presentación de diapositivas \"Conociendo ProfePlus\";
+la cual tiene por objetivo general familiarizar a los estudiantes en el uso de ProfePlus.
+Esta presentación está disponible en <a href="https://www.profeplus.org/conociendo">www.profeplus.org/conociendo</a>.<br/><br/>
+En caso el estudiante haya ingresado al App, pero luego tenga inconvenientes
+y comente \"no puedo entrar nuevamente\", \"el código no ingresa\", u otro similar;
+el profesor puede indicarle alguna de estas frases: \"salga por completo de la sesión del App e ingrese otra vez\"
+o \"ubique el ícono del App ProfePlus y vuelva a ingresar\".<br/><br/>
+]]></item>
+        <item><![CDATA[
+ProfePlus está basado sobre la metodología de instrucción entre pares (peer instruction).
+Así, diversos estudios de esta metodología coinciden en que es importante mencionar a los estudiantes,
+desde el inicio, sobre esta forma de enseñanza y sus impactos positivos; y mejor aún si lo experimentan por sí mismos en un ejercicio.<br/><br/>
+Por ello, se puede hacer uso de la presentación PDF \"Conociendo ProfePlus\";
+la cual tomará máximo 25 minutos.  En ella se realiza un ejercicio que un estudiante de cualquier nivel podrá comprender y resolver.
+Recomendamos presentar estas diapositivas a los estudiantes antes de usar ProfePlus en el aula,
+la cual es útil para cualquier asignatura o disciplina. Asimismo, en caso un estudiante no tenga un Smartphone o Tablet,
+la presentación anterior les enseña a usar el botón “Prestar al compañero” para que puedan compartir su equipo con sus amigos de aula.
+De esta manera todos los estudiantes tendrán posibilidad de participar.<br/><br/>
+Invite a los estudiantes a dar su máximo esfuerzo en esta asignatura y en su carrera;
+y que se comprometan a ello por su propio honor; realizando no solamente \"buenos trabajos\",
+sino que además siempre aspiren a generar \"trabajos sobresalientes\".<br/><br/>
+]]></item>
+        <item><![CDATA[
+Al aplicar ProfePlus en el aula el profesor no tiene acceso a las respuestas individuales.
+Solamente verá en un gráfico las respuestas totales del aula.
+Esto se puede apreciar en la presentación \"Conociendo ProfePlus\", la cual debe ser practicada antes de la sesión.<br/><br/>
+El motivo central por el que ProfePlus no muestra las respuestas individuales es para brindar al estudiante
+una sensación mayor de autonomía. Además, diversos estudios muestran que los estudiantes,
+al sentir que son controlados en las aulas, tienden a copiar las respuestas de sus compañeros
+o a brindar respuestas que el docente quiere escuchar, no las que ellos realmente creen que son correctas.
+El sentir temor no favorecerá ideas innovadoras ni volverá la magia al aula. Para mayor detalle de esta acción,
+recomendamos ver el video del Coloquio por la Co-Innovación en el Aula,
+que está disponible en
+<a href="https://educast.pucp.edu.pe/video/9570/coloquio_por_la_coinnovacion_y_el_trabajo_en_equipo_en_el_aula_de_clase">aquí</a>.<br/><br/>
+]]></item>
+        <item><![CDATA[
+Al aplicar ProfePlus es preferible empezar con sólo un ejercicio por clase, para acostumbrar a toda el aula al uso de esta herramienta.<br/><br/>
+Se propone esto pues el tiempo que puede tomar al profesor familiarizarse con este método puede durar unos días;
+y es mejor iniciar de poco a mucho; conociendo así las preguntas más frecuentes y las posibles dudas de los estudiantes;
+e inclusive, algún tema de infraestructura que sea necesario afinar o coordinar con los responsables de su casa de estudio.<br/><br/>
+Use preguntas retadoras, que \"enganchen\" a los estudiantes con dicha asignatura
+y practique previamente con su equipo. Además, para que tengan mayor retención en algunos ejercicios,
+es preferible leerles las preguntas que consideren tengan conceptos más importantes.
+Asimismo, pueden incidir un poco más en la pregunta, ya que es posible que no se explique todo en el texto de la diapositiva.<br/><br/>
+]]></item>
+        <item><![CDATA[
+Si el gráfico de respuestas indica que menos del 70% de los participantes logró contestar correctamente,
+lo recomendable es aplicar la instrucción por pares para afianzar el concepto que se está enseñando.
+Es decir, propiciar que los estudiantes conversen entre ellos y argumenten sus respuestas.<br/><br/>
+En el paso 2 debe indicarse a los estudiantes que entre ellos se hagan preguntas reto.
+Estas aparecen de inmediato en la pantalla de los estudiantes cuando ellos presionen el botón actualizar.
+Dichas preguntas son: (i) ¿Qué concepto del curso fundamenta tu respuesta?; (ii) ¿Y qué pasaría si…?<br/><br/>
+La primera pregunta busca que los estudiantes enlacen los conceptos del curso con sus aplicaciones.
+La segunda pregunta \"¿Y qué pasaría si…?\" contribuye a ampliar la imaginación de los estudiantes.<br/><br/>
+El paso 2 ayuda fuertemente a que dentro de cualquier clase, sin importar el curso,
+se generen competencias de trabajo en equipo, participación en proyectos, aprendizaje autónomo,
+respeto ético a las ideas del compañero y capacidad crítica.
+Estas competencias le ayudarán cuando emprenda proyectos de investigación u otras temáticas, y apoyarían en sus capacidades comunicativas.<br/><br/>
+]]></item>
+        <item><![CDATA[
+Una característica que ayudaría al docente a ser considerado innovador en el aula es que tenga mayor dinámica,
+que camine, que se desplace. Comúnmente en muchas cátedras los docentes permanecen sentados
+y solamente se mueven en el pasillo de la pizarra, no logrando conectarse con los estudiantes
+que estén ubicados en las últimas filas. Por ello, es recomendable caminar entre las sillas
+y generar contacto visual con los estudiantes (más aún en los momentos de la instrucción entre pares).<br/><br/>
+Si es posible, el profesor podría usar puntero láser para presentar sus diapositivas.<br/><br/>
+]]></item>
+        <item><![CDATA[
+En la mayoría de veces, la mejor forma de aprender es haciendo preguntas que cuestionen lo común.
+Sin embargo, cuando el ambiente es de total complacencia al docente, sin participación activa,
+lo único que se generará es \"repetidores\" y \"memoristas\".<br/><br/>
+Tratemos de evitar las siguientes frases: \"No tengo tiempo\", \"esto es muy difícil\", \"esto es complicado\",
+\"(en la toma 2) deben convencer de su idea a su compañero a toda costa\", \"no tenemos tiempo para profundizar en esto\".<br/><br/>
+No nos amarguemos ni generemos esa percepción en los estudiantes cuando ellos realicen preguntas.
+Para evitar lo anterior, cuando un estudiante realiza una pregunta no debe respondérsele con frases
+como \"¿por qué pregunta eso?\", \"¡pero si es tan obvio!\".
+Recordemos el adagio popular \"no somos responsables de la cara que tenemos, pero sí de la que ponemos\".<br/><br/>
+Inclusive, no señale a los estudiantes que preguntan (\"cuando un dedo señala a alguien, hay otros tres que lo señalan a uno\").
+Cuando explique algún concepto que es importante para los estudiantes, use las siguientes frases: \"esto es muy importante\",
+\"esta parte es clave\", \"en otras universidades esto no es tomado en cuenta, pero es importante porque…\".<br/><br/>
+Anime a los estudiantes cuando pregunten, respondiéndoles así: “¡buena pregunta!”,
+\"¡me alegra que te hayas dado cuenta de esto!\", \"¡excelente punto de vista!\", \"¡qué bien que me pregunten esto!\".
+De esta manera, también animará a otros a participar.<br/><br/>
+Cuando un estudiante realice una pregunta que pareciera obvia para sus compañeros o usted, no lo desanime.
+Mejor, conteste con las siguientes frases: \"cuando yo era estudiante, también pensaba así, y luego me di cuenta de lo siguiente…\";
+\"la mayoría comete este error, pero nosotros no debemos cometerlo\",
+\"por supuesto, muchos piensan así pues no se aclaran algunos conceptos, pero ahora mismo aclararemos este tema…\".
+Si los compañeros se ríen de la pregunta, coménteles un antiguo proverbio chino: \"pregunta lo que no sepas y pasarás por tonto unos minutos;
+no lo preguntes, y serás tonto la vida entera\".<br/><br/>
+Finalmente, comente su experiencia a colegas de su misma u otras áreas, y anímelos también a innovar en la docencia;
+con el fin de forjar profesionales con mejores capacidades y competencias.<br/><br/>
+]]></item>
+    </string-array>
+
+
+    <string-array name="title_databank">
+        <item><b>BANCO DE PREGUNTAS</b></item>
+        <item><b>CONSIDERACIÓN 1:\nAjustar los textos de las preguntas que se presentarán en las
+            diapositivas en clase.</b></item>
+        <item><b>CONSIDERACIÓN 2:\nIncluya nuevas palabras que impulsen a los estudiantes a ser
+            más participativos de concursos e investigaciones y tener espíritu crítico.</b></item>
+        <item><b>CONSIDERACIÓN 3:\nEstimular a los estudiantes a relacionar el curso que se
+            dicta con información de calidad a la que ellos pueden tener acceso.</b></item>
+        <item><b>CONSIDERACIÓN 4:\nFamiliarizar en los ejercicios la facilidad para acceder a
+            cursos libres y tutoriales, y no esperar todo del profesor.</b></item>
+        <item><b>CONSIDERACIÓN 5:\nBrindar evidencias cercanas a los estudiantes sobre que es
+            posible emprender en cualquier ámbito (social, cultural o empresarial).</b></item>
+        <item><b>CONSIDERACIÓN 6:\nEnlazar los conceptos aprendidos en el curso con otras
+            materias clave para investigar, como la Estadística.</b></item>
+        <item><b>CONSIDERACIÓN 7:\nDesarrollemos preguntas que estén ligadas a los contextos de
+            las ciudades donde se dictan los cursos y posicionando bien al estudiante.</b></item>
+        <item><b>CONSIDERACIÓN 8:\nSocializar situaciones donde los estudiantes toman decisiones,
+            basados en los conceptos aprendidos en sus estudios superiores.</b></item>
+        <item><b>CONSIDERACIÓN 9:\nInvitar a profesores de otras disciplinas a que nos brinden
+            opinión sobre las preguntas creadas.</b></item>
+        <item><b>CONSIDERACIÓN 10:\nColoque un código T-E a cada una de sus preguntas.</b></item>
+    </string-array>
+
+    <string-array name="content_databank">
+        <item><![CDATA[ A continuación se presentan diez consideraciones para ayudar al profesor a
+            generar preguntas que reten al estudiante en el aprendizaje de conceptos del curso
+            y a generar competencias que le permitan emprender a futuro en algún proyecto
+            cultural, social o empresarial.
+            <br/><br/>El profesor debe tomar estas consideraciones como
+            recomendaciones generales y las debe seguir según lo que crea conveniente.
+            <br/><br/>ProfePlus no solicita a los profesores que suban sus preguntas a la Web.
+            Cada profesor sólo proyectará las preguntas en la clase y
+            usará ProfePlus para conocer el avance de
+            la clase. Luego, si lo desea, puede obtener un reporte que se enviará a su
+            Email.\nConsideramos también que la generación de un banco de preguntas facilitará
+            al profesor a realizar una publicación propia del curso que dicta.]]></item>
+        <item><![CDATA[ De preferencia los ejercicios deben enfocarse en esclarecer conceptos del curso,
+            y si es necesario que incluyan operaciones, estas deben ser sencillas. El objetivo
+            es que los estudiantes comprendan bien el concepto de sus materias.
+            <br/><br/>Cada ejercicio que plantee deben mostrarse en una sola diapositiva y será más fácilmente legible
+            con un tipo de letra similar a ARIAL, tamaño 21; y en lo posible no deben ser
+            extensos en el texto de la pregunta. En todos los casos, debe incluirse cinco
+            alternativas (A, B, C, D y E) o dos (V y F).
+            <br/><br/>Recomendamos también que, en el caso
+            de ejercicios que tengan una ilustración (dibujo, gráfico u otro), el texto de la
+            pregunta debe ser corto, con una extensión de cuatro líneas.]]></item>
+        <item><![CDATA[Se puede aprovechar el texto de las preguntas para socializar entre los estudiantes
+            términos como \"papers\", \"patentes\",  \"tesis\", \"fondos concursables\", \"fondos semilla\",
+            \"becas\" o \"concursos\".
+            <br/><br/>Por ejemplo: \"Con un grupo de amigos analizan un paper de
+            scholar.google.com; el cual dice que es posible que una esfera de 1 Ton de plumas
+            caiga al igual de tiempo que 1 Ton de rocas en la Luna. ¿Esto será
+            cierto?\"
+            <br/><br/>Consideremos que no es necesario profundizar en los otros temas que se
+            mencionan, pues estos se verán en otros cursos o de modo libre. Además, el
+            profesor solamente menciona que existe esa información, no que la domina.
+            Sentimos que así podemos inculcar a los estudiantes la pasión por investigar.]]></item>
+        <item><![CDATA[Se podría mencionar en los ejercicios formulados que una idea fue posible gracias
+            a la revisión de bases de datos especializadas.
+            <br/><br/>Por ejemplo: \"Luego de revisar
+            diversos métodos para limpiar objetos sólidos en productioninspiration.com, se
+            le ocurrió diseñar un programa informático que facilite dicho proceso, inspirado
+            también en conceptos aprendidos en Educación Física. Según la figura mostrada …\"
+            <br/><br/>La pregunta anterior facilitaría la imaginación del estudiante, pues no se hace
+            mención sobre en qué consiste el programa informático ni el concepto de Educación
+            Física que antes aprendió. El foco estará en la figura que la pregunta muesta.]]></item>
+        <item><![CDATA[En la actualidad, Internet facilita a todos el acceso a diversa información
+            (más aún en inglés). Sin embargo, muchas veces notamos que existen estudiantes que
+            esperan que el profesor \"lo sepa todo\".
+            <br/><br/>Por ello, podría plantear preguntas
+            como: \"Luego de ver un video del Ted.com se dio cuenta que era posible crear un
+            método para separar la paja del trigo, las cuales son separadas en forma esférica.
+            Así, ambos trozos son disparados en un movimiento curvo al mismo tiempo…\"
+            <br/><br/>Nótese que en ninguna parte de la pregunta anterior se explicó sobre cómo era el método.
+            Lo que sí ayuda a reducir palabras es el uso apropiado de gráficos o imágenes.]]></item>
+        <item><![CDATA[Recomendamos familiarizar a los estudiantes la Web de la Red de Emprendedores
+            E-QUIPU, pues se enfoca en ayudar a jóvenes en etapa embrionaria en cualquier tipo
+            de emprendimiento. Allí, podrán interactuar con jóvenes que como ellos, desean
+            emprender en diversos ámbitos.
+            <br/><br/>Ejemplo: \"Recientemente se ha integrado a un grupo de
+            magia registrado en <u>www.e-quipu.pe</u> y ha notado que puede fabricarse \"zapatos
+            antigravedad\", lo cual…\".
+            <br/><br/>El ejemplo anterior debe complementarse con imágenes
+            de la Web, para evitar preguntas como \"¿Profesor, qué es un zapato antigravedad?\".
+            Por ello, al colocarse imágenes de alguna Web externa, obligatoriamente
+            debe colocarse sus links.]]></item>
+        <item><![CDATA[Una investigación inicia con plantearse hipótesis, y sus pruebas estadísticas
+            son necesarias para validarlas. Sin embargo, muchas veces, notamos que gran proporción
+            de egresados no pueden definir una variable y menos plantear hipótesis.
+            <br/><br/>Por ello,
+            el profesor podría aprovechar las preguntas que plantea para indicar a los
+            estudiantes que los conceptos de otros cursos (como la estadística) son importantes.
+            Ejemplo: \"Luego de probar estadísticamente sus hipótesis respecto a un método
+            educativo, ha decidido …\".
+            <br/><br/>Nótese que no se está enseñando al estudiante cómo se
+            prueba la hipótesis, pero sí se le está indicando que se usan técnicas estadísticas
+            que él usará en el futuro (o que ya conoce previamente) para argumentar
+            apropiadamente una decisión.]]></item>
+        <item><![CDATA[Es común que los nuevos conceptos sean más asimilables si son comunicados \"de lo
+            real a lo abstracto\" en lugar de lo contrario. Por ejemplo, en Perú se puede
+            aprovechar las preguntas para socializar entre los estudiantes temas como: el
+            Fenómeno El Niño, el frío intenso en Puno, la depredación de la selva, la
+            contaminación de los ríos, entre otros.
+            <br/><br/>Ejemplo: \"Para evitar muertes por
+            el intenso frío en Puno, usted dirige la construcción de casas antifrío.
+            Los materiales son …\".
+            <br/><br/>Además de establecer un mejor lazo con sus
+            problemáticas, en este ejemplo se ha colocado al estudiante en una posición activa,
+            debiendo liderar una acción a favor de evitar las muertes por el intenso
+            frío, producido por el cambio climático.]]></item>
+        <item><![CDATA[Los futuros egresados del proceso educativo deberán, inevitablemente, tomar
+            importantes decisiones (sea porque lo deseen hacer, o porque la sociedad lo solicita);
+            por lo cual se puede aprovechar esta ocasión para familiarizar esta situación según
+            la forma en que se presentan las alternativas de respuesta.
+            <br/><br/>Por ejemplo, ante una
+            pregunta donde se muestran dos técnicas (M o N), de algún proceso productivo o
+            educativo, y ante la obligación de elegir uno de ellos, es común ver alternativas
+            de decisión como: (a) M; (b) N; \(c\) M o N; (d) Faltan datos. (e) N.A.
+            <br/><br/>En lugar
+            de ello, aprovechemos esta ocasión para que los estudiantes elijan según lo
+            enseñado. Por ejemplo: (a) M, pues cuesta menos; (b) M, pues se realiza en menos
+            tiempo; \(c\) N, pues es más barato; (d) N, pues es gratis; (e) Cualquiera.]]></item>
+        <item><![CDATA[Como profesores muchas veces tratamos de generar a estudiantes a nuestra imagen y
+            semejanza, pues así está hecho el sistema educativo.
+            <br/><br/>Este sistema rígido genera
+            que muchas veces hagamos preguntas muy similares a las que recibimos de estudiantes.
+            Es por ello que en esta tarea nos ayudará enormemente ser más multidisciplinarios.,
+            invitando a profesores de otras áreas a que opinen sobre las preguntas que
+            generemos.
+            <br/><br/>También, se recomienda incluir en el proceso de elaboración de preguntas
+            a asistentes de docencia que estén interesados en innovar en la
+            enseñanza.
+            <br/><br/>Consideremos también que no saldrá perfecto la primera vez que
+            propongamos una pregunta y muchas veces serán los propios estudiantes quienes
+            nos brindarán buenas recomendaciones.]]></item>
+        <item><![CDATA[Es recomendable que las preguntas que cada profesor cree tengan un código
+            propio. Así, luego, en caso lo desee, cada profesor podrá analizar el avance de
+            comprensión de conceptos de sus estudiantes.
+            <br/><br/>Los formatos de código para las
+            preguntas están indicados según el número de tema, con la letra \"T\". Luego,
+            para cada tema de cualquier curso puede generarse varios ejercicios o preguntas,
+            numerados con la letra \"E\".  Así, el código T12.E38 significa que dicha pregunta
+            pertenece al tema 12 (que podría ser \"Teoría de Conjuntos\", \"Análisis Participativo\"
+            u otro tema) y de esa área es el ejercicio 38 (es decir, el profesor ha planteado al
+            menos 38 preguntas en dicho tema en su propio banco de preguntas).
+            <br/><br/>Esto es para un
+            control interno del profesor. Es decir, el código anterior no necesariamente
+            representa la misma pregunta para otro profesor; pues las preguntas no se suben
+            al programa, solamente se proyectan. Además, también le servirán la generar
+            sus propias publicaciones.]]></item>
+    </string-array>
+
+    <string-array name="title_motiv">
+        <item><b>POR QUÉ SE CREÓ PROFEPLUS</b></item>
+    </string-array>
+
+    <string-array name="motiv">
+        <item><![CDATA[
+        ProfePlus nace como una propuesta para elevar la calidad del sistema de enseñanza, el cual,
+         bajo las metodologías tradicionales, no está cumpliendo sus objetivos. Así, los
+         ciudadanos, al finalizar su educación, egresan con una formación incompleta en
+         conocimientos y competencias; debido fuertemente a que muchos centros de estudio se
+         han convertido en organizaciones enfocadas solamente en la formación de trabajadores o
+         empleados con débiles capacidades para generar cambios y mejoras para la sociedad.<br/><br/>
+
+Si se revisan los estatutos de todas las universidades en el Perú, se encontrarán, palabras más,
+palabras menos, que “son instituciones dedicadas a la formación académica y profesional de
+primera clase, que desarrollan investigación de alto nivel y que realizan actividades de
+extensión en beneficio de la sociedad”. La posición en general del país en los rankings
+universitarios es una clara muestra que esa declaración no refleja la realidad.<br/><br/>
+
+El sistema educativo es muy rígido y poco abierta a cambios y mejoras rápidas. Asimismo, en
+estas instituciones se suele tener miedo a cometer errores, generando que muchos prefieran no
+hacer nada y evitar que se les señale por algún fracaso. Basta ver la muy baja cantidad de
+carreras de educación superior con acreditación de calidad, para saber que muy poco se ha
+logrado. Es más, la experiencia refleja que en variadas ocasiones, quienes desean generar
+e implementar mejoras dentro de sus propias casas de estudio, son catalogados como rebeldes;
+pues no desean decir “Amén” a la situación actual.<br/><br/>
+
+De acuerdo a lo anterior, el equipo de profesores, profesionales y estudiantes; quienes hemos
+estado inmersos en ProfePlus desde sus inicios, nos consideramos rebeldes a la situación y
+ resultados actuales del sistema educativo. Consideramos que una forma de generar valor en
+ los esquemas actuales estaría en socializar, facilitar e implementar la metodología de
+ instrucción entre pares (la cual inició en la década de 1990 en la Universidad de Harvard,
+ gracias al Dr. Eric Mazur).<br/><br/>
+
+Así, luego de muchos esfuerzos conjuntos, a finales de febrero del 2016 se realizaron las
+pruebas de hipótesis de esta herramienta de innovación docente, utilizando el estadístico de
+ prueba t-student, con 32 grados de libertad y error Tipo I del 5%. Los resultados fueron
+ muy satisfactorios, probándose lo siguiente:<br/><br/>
+
+<u>Hipótesis principal:</u>  Es factible utilizar un método sencillo, con el uso de TICs y
+aplicable en el aula, que estimule la generación de competencias relacionadas con el
+emprendimiento; y asimismo, potencie el aprendizaje de conceptos en los estudiantes.<br/>
+<u>Hipótesis secundarias:</u><br/>
+1. Existe predisposición en los estudiantes a usar un aplicativo móvil en el aula.<br/>
+2. El uso de un App en el aula para implementar la instrucción entre pares facilita
+una mejor valoración del profesor por parte de los estudiantes.<br/>
+3. Los estudiantes perciben el progreso en la formación de las competencias al usar un App
+en el aula para implementar la instrucción entre pares.<br/>
+4. El uso de un App en el aula para implementar la instrucción entre pares contribuye
+significativamente a que los estudiantes tengan una mejor percepción sobre su
+formación para trabajar en equipo.<br/>
+5. La percepción de los estudiantes sobre la calidad de la enseñanza y la formación en
+competencias están influenciadas positivamente al saber que el docente monitorea
+en tiempo real la sesión.<br/>
+
+ProfePlus es aplicable a cualquier curso, asignatura o disciplina, pues la instrucción entre
+pares tiene esta facilidad de adaptación sin inconvenientes. Con su uso estamos ayudando
+fuertemente en que los estudiantes mejoren el aprendizaje de conceptos y su formación en
+competencias. Asimismo, facilitamos la generación de publicaciones e investigaciones en
+docencia a los profesores; así como el proceso de acreditación de calidad de las
+instituciones de educación. Para mayor detalle de su uso puede ingresar a la
+sección Protocolo.
+]]></item>
+    </string-array>
+
+    <string-array name="creator">
+        <item>
+            <![CDATA[
+            ProfePlus es una iniciativa de la Red de Emprendedores E-QUIPU. Esta idea empezó
+            a generarse desde el 2014. Luego, el 2015 la propuesta se presentó al Fondo
+            Concursable de Innovación para la Docencia de la Dirección Académica del
+            Profesorado de la Pontificia Universidad Católica del Perú (PUCP);
+            ganando financiamiento inicial.<br/><br/>
+
+La propuesta en mención fue elaborada por un grupo de profesores, miembros del Grupo
+ de Investigación del Trabajo en Equipo y Emprendimiento (GITEE) de la PUCP.
+ Este equipo estuvo integrado por los tres profesionales que se presentan
+ a continuación.<br/><br/>
+
+&#149; Richard Moscoso Bullón: Profesor de Física PUCP y responsable del proceso de generación de
+preguntas y ejercicios de la primera edición del Manual para Profesores Innovadores de Física 1.
+<br/>
+&#149; Carlos Vera Gutiérrez: Profesor de Estadística PUCP y responsable del análisis estadístico
+de las hipótesis planteadas. Profesor Principal y Miembro del Consejo de la Facultad de
+ Ciencias e Ingeniería PUCP.<br/>
+&#149; Ronnie Hans Guerra Portocarrero: Coordinador General de la Red de Emprendedores E-QUIPU
+y Profesor TPA de la PUCP. Responsable de la creación, análisis, implementación y monitoreo
+de ProfePlus y del proceso de innovación.<br/><br/>
+
+Asimismo, como  colaborador clave se sumó desde el inicio de esta iniciativa el
+Sr. Mijail Choque Huamán, estudiante de ingeniería mecatrónica de la PUCP.<br/><br/>
+
+Luego, para facilitar su expansión a más universidades del país, se obtuvo un valioso aporte
+ de la Red Peruana de Universidades del Perú; quienes facilitaron la visita al campus PUCP de
+ delegaciones de profesores de Física de costa, sierra y selva. También, al mismo tiempo,
+ las áreas de Estudios Generales Ciencias, y la Facultad de Ciencias e Ingeniería de la
+ PUCP aportaron subvención para la continuidad de esta iniciativa, naciendo así "ProfePlus".
+<br/><br/>
+
+Este es un esfuerzo colectivo y colaborativo que ponemos a disposición de la comunidad
+académica, en pos de la mejora en la enseñanza en el país.<br/>]]></item>
+    </string-array>
+
+    <string-array name="title_creator">
+        <item><b>CREADORES</b></item>
+    </string-array>
+
+    <string-array name="title_comite">
+        <item><b>COMITÉ CONSULTIVO</b></item>
+    </string-array>
+
+    <string-array name="comite">
+        <item>
+            <![CDATA[
+            ProfePlus es una iniciativa de la Red de Emprendedores E-QUIPU y está a disposición
+            de profesores y estudiantes de toda disciplina y ámbito. Su uso es libre y siempre
+            lo será, estando a disposición para quien desee innovar en la enseñanza
+            básica o superior.<br/><br/>
+
+En el marco de este esfuerzo conjunto y colaborativo se ha establecido un comité consultivo,
+integrado por profesionales de tres universidades del Perú:<br/><br/>
+
+<b>Pontificia Universidad Católica del Perú (PUCP):</b><br/>
+&#149; Eduardo Ismodes Cascón, Fundador de E-QUIPU. Past Decano de la Facultad de Ciencias e
+Ingeniería, PUCP.<br/>
+&#149; Ronnie Hans Guerra Portocarrero, Coordinador General de la Red E-QUIPU.
+Miembro Fundador del Grupo de Investigación del Trabajo en Equipo y Emprendimiento de la PUCP.
+<br/><br/>
+
+<b>Universidad Nacional Mayor de San Marcos (UNMSM):</b><br/>
+&#149; Orestes Cachay Boza, Rector de la UNMSM. Fundador de E-QUIPU San Marcos.<br/>
+&#149; Álvaro Echevarría Córdova, Coordinador de E-QUIPU San Marcos. Profesor TP de
+Emprendimiento en la Facultad de Ingeniería Industrial en la UNMSM.<br/><br/>
+
+<b>Universidad Nacional de Trujillo (UNT):</b><br/>
+&#149; Arístides Távara Aponte, Fundador y Coordinador de E-QUIPU UNT. Profesor Principal y Past
+Decano de la Facultad de Ciencias Físicas y Matemáticas de la UNT.<br/><br/>
+
+La Red de Emprendedores E-QUIPU está conformada por universidades de costa, sierra y selva
+del Perú; y en la que interactúan estudiantes de pregrado con espíritu emprendedor.
+Para mayor información de E-QUIPU revise la Web www.e-quipu.pe]]></item>
+    </string-array>
+
+    <string-array name="title_thanks">
+        <item><b>AGRADECIMIENTOS</b></item>
+    </string-array>
+
+    <string-array name="thanks">
+        <item>
+            <![CDATA[
+            El comité consultivo de ProfePlus, agradece a quienes desde el inicio confiaron en
+            este proyecto y ayudaron a sacarlo adelante.<br/><br/>
+
+Por ello, en primer lugar, expresamos nuestra profunda y eterna gratitud por las palabras de
+aliento a este esfuerzo, basado en difundir la metodología de instrucción por pares,
+recibidas por el Dr. Eric Mazur, decano de Física Aplicada de la Universidad de Harvard,
+quien es creador de dicha metodología.<br/><br/>
+
+Del mismo modo, los autores reconocen el apoyo de los siguientes profesionales PUCP :
+Carlos Pizarro Ortiz, Lucrecia Chumpitaz Campos, Ana Maria Balbin Bastidas, Carmen Quiroz Fernández,
+Enrique Quispe Peña, Rogger Anaya Rosales, Pedro Siesquen Manrique y José María Espinoza Bueno.<br/><br/>
+
+También apreciamos el compromiso en el proyecto "ProfePlus" de Herbert Caller Guzmán
+(consultor de programación) y Milagros Echegaray Mayorga (miembro del GITEE PUCP).
+Aprovechamos para hacer mención al apoyo de los estudiantes PUCP inmersos en este proyecto:
+ Mijail Choque Huamán, Cindy Bautista Chavez, Juan Rivas, Jonathan Marcelo y
+ Natalia Cárdenas Tataje. Sin ellos, ProfePlus no hubiese avanzado.<br/><br/>
+
+Del mismo modo, saludamos el compromiso de profesores de Física en el proyecto "ProfePlus",
+ que representan a diversas universidades peruanas de costa, sierra y selva; especialmente
+ a: Arístides Távara Aponte, Ricardo Gil Ramirez, Julio Idrogo Cordova, Demetrio Rocha Mendez,
+ Denis Abanto, Roberto Rojas Alegria, Myriam Soledad Figueroa, Wilson Camacho Mamani,
+ Luis Moreno, Wilfredo Valdivia Rojas, Alfredo Guzmán Valdivia, Mario Pumacallahui,
+ José Portugal Salinas, Whinders Fernández Granda, Wilson Cabana, Juan Ramón Diaz,
+ Rebeca Linares, Fernando Vásquez Vásquez,  César Augusto Costa Polo, Julio Oré García,
+ Jorge Luis Lozano, Manuel Emiliano Esteves Pairazamán, Mario Chávez Bacilio,
+ y Arminda Tirado Rengifo.<br/><br/>
+
+Finalmente, extendemos nuestra correspondencia eterna a las siguientes áreas de la
+Pontificia Universidad Católica del Perú: Fondo Concursable de Innovación para la Docencia de
+la Dirección Académica del Profesorado, Red Peruana de Universidades del Perú,
+Dirección de Informática Académica, Estudios Generales Ciencias, y la Facultad de Ciencias e
+ Ingeniería. Del mismo modo, a los estudiantes de ingeniería industrial que participaron en
+ la pre-evaluación de esta iniciativa, especialmente a: Harold Blanco Rodríguez,
+ Jackelyne Durán Feliciano, Franz Sac Araujo, Bárbara Salazar Gamarra, Grisell Sarrín Camas,
+ Andrei Paulino Prieto, Ivonne Tananta Calvo, Giulliana Zagastizabal, Sonia Rojas Villanueva,
+  Claudia Cochachin Malpica, Victor Villaizan Pastrana, Camila Huanca Ramos, Marialuisa
+  Romero Rodríguez, Romina Flores Merino, Marialejandra Palomino Vara, Jhasmin Quispe Jorge,
+   Isabel Diaz Alarcon, Josseline Wisky Pérez, Andrea Sanchez Gutierrez, Maria Valeria  Sotelo
+   Polo, Dylan Natividad Giron, Emiliano Huamán Gil, Joselyn León Meza, Karina Fernández
+    Romero, Brigitt Barrios Carlos, Leonardo Inga Curay, Katherine Chuquipalla Huamaní,
+    Diego López Romero,  Yessi León Poma, Anthony López Flores, Jorge Samamé Villacorta,
+     Jose Ccorisoncco Capcha, Seleni Lara Jauregui.]]></item>
+    </string-array>
+
+    <string-array name="title_emprender">
+        <item><b>SI QUIERES EMPRENDER, ÚNETE A E-QUIPU</b></item>
+    </string-array>
+
+    <string-array name="emprender">
+    <item>
+        <![CDATA[
+        Hola, muchas gracias por  usar ProfePlus y por expresar tus deseos de emprender
+         mientras estudias. Para ello, te invitamos a unirte a la Red de Emprendedores E-QUIPU,
+         iniciativa creada para apoyar tus iniciativas emprendedoras, principalmente en
+         tres temas clave:<br/><br/>
+         (1)  Compartir tú pasión con más emprendedores.<br/>
+(2)  Conectarte con más emprendedores y equipos.<br/>
+(3)  Mejorar tus competencias.<br/><br/>
+Asimismo, luego que te registres en <a href="http://www.e-quipu.pe/">www.e-quipu.pe</a> y crees un equipo, te recomendamos que
+explores cómo potenciar tu emprendimiento. Nuestra experiencia de más de diez años,
+apoyando a jóvenes estudiantes, nos permite sugerir que te enfoques en tres tips:<br/><br/>
+
+Tip 1: Revisa qué están haciendo, en otros países o ciudades, los jóvenes como tú en el tema
+que te interesa. Esto es clave, pues de esta manera tendrás mayores posibilidades de éxito.
+ Por ello, revisa las siguiente webs, donde expertos de diversos temas comentan sus experiencias
+ y donde además se comentan variados avances: http://www.ted.com/playlists,
+ http://www.productioninspiration.com, https://scholar.google.com.pe/,
+ https://patents.google.com/. Publica en tu espacio asignado en la Web E-QUIPU la información
+ que creas conveniente, con el fin que incrementes tus destrezas en el tema
+ que a ti te apasiona.<br/><br/>
+
+ Tip 2: Recuerda que hay muchas formas de auto-capacitarte en el tema que te apasiona;
+ por ello, revisa las siguientes web donde puedes capacitarte rápidamente.
+ https://es.coursera.org/, https://www.edx.org/, https://www.acamica.com/cursos.
+ Asimismo, siempre revisa la sección de concursos donde puedes presentar tu
+  proyecto emprendedor:
+  <a href="http://www.e-quipu.pe/becasyconcursos>http://www.e-quipu.pe/becasyconcursos</a>.<br/><br/>
+
+  Tip 3: Facilita reuniones efectivas. Para permitir la participación a los miembros de
+  tu equipo que no puedan estar presentes, utiliza herramientas como Skype o Zoom Google
+   Hangouts. También, no debemos pensar que siempre las reuniones deben ser en un aula;
+   pues pueden ser en casa de un amigo o al aire libre (y si se tiene wi-fi, mejor, pues
+   puedes también usar las herramientas anteriores para que todos vean la misma pantalla,
+    sin necesidad de un proyector multimedia).<br/><br/>
+
+    Asimismo, si consideras que tu proyecto está encaminado a ser una Start-Up,
+    te invitamos a usar la sección “Crea tu Canvas” en la página principal www.e-quipu.pe.
+    Para mayor detalle puedes revisar estos videos para afinar más la idea lo
+    antes posible: <a href="http://www.e-quipu.pe/default/video/ver/video/202">
+    http://www.e-quipu.pe/default/video/ver/video/202
+    </a>;
+    <a href="http://www.e-quipu.pe/default/video/ver/video/204">
+    http://www.e-quipu.pe/default/video/ver/video/204
+    </a>;
+    <a href="http://www.e-quipu.pe/default/video/ver/video/206">
+    http://www.e-quipu.pe/default/video/ver/video/206
+    </a><br/><br/>
+
+Muchas gracias por tu atención y te felicitamos nuevamente por
+tu espíritu emprendedor. Suerte.<br/><br/>
+]]></item>
+    </string-array>
+
+
+</resources>

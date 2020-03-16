@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.teacher_job.ResultTFStateTwoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/botones"
+            style="@style/results_button_box">
+
+            <Button
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btn_finish_exit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="@style/results_app_button"
+                android:text="@string/text_finish_exit"/>
+
+
+            <Button
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btn_start_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="@style/results_app_button"
+                android:text="@string/text_start_two"/>
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/btn_refresh_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_update_answer"
+                style="@style/refresh_chart_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_above="@+id/botones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"></include>
+
+            <include layout="@layout/subfragment_results_tf"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

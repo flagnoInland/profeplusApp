@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.EvaluationStepTwoFragment">
+
+    <LinearLayout
+        android:layout_above="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_template4"></include>
+
+        <ScrollView
+            style="@style/scrollview_border_land">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_evaluation_start_now"
+                    style="@style/style_text_x"
+                    android:text="@string/text_evaluation_start_now"/>
+
+                <Spinner
+                    android:id="@+id/spn_start_now"
+                    style="@style/defaul_app_spinner_land" />
+
+                <LinearLayout
+                    android:id="@+id/layout_start_yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_duration_evaluation"
+                        style="@style/style_text_x"
+                        android:text="@string/text_duration_evaluation"/>
+
+                    <EditText
+                        android:id="@+id/edt_duration"
+                        android:inputType="number"
+                        android:layout_gravity="center"
+                        style="@style/default_app_input_land" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_margin" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_start_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_type_date"
+                       style="@style/style_text_x"
+                        android:text="@string/text_type_evaluation_date"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:id="@+id/edt_date"
+                        style="@style/default_app_input_land" />
+
+                    <TextView
+                        android:id="@+id/txt_type_start_time"
+                        style="@style/style_text_x"
+                        android:text="@string/text_start_time"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:id="@+id/edt_start"
+                        style="@style/default_app_input_land" />
+
+                    <TextView
+                        android:id="@+id/txt_type_end_time"
+                        style="@style/style_text_x"
+                        android:text="@string/text_end_time"/>
+
+
+                    <TextView
+                        android:id="@+id/edt_end"
+                        style="@style/default_app_input_land" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_margin" />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/txt_alert_type_question"
+                    style="@style/style_text_x"
+                    android:text="@string/text_alert_type_question"/>
+
+                <Button
+                    android:id="@+id/btn_next"
+                    style="@style/default_app_boton_land"
+                    android:contentDescription="btnNextStepTwoEvaluation"
+                    android:textAllCaps="true"
+                    android:text="@string/text_next"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/big_margin" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

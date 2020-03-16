@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/verde">
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            app:srcCompat="?attr/ic_back"
+            android:adjustViewBounds="true"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="@dimen/size_xxxxx"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/huge_font"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="@dimen/small_padding"
+            android:src="@drawable/logo_header"
+            android:adjustViewBounds="true" />
+
+
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/btn_user_mode"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            app:srcCompat="?attr/ic_user_mode"
+            android:adjustViewBounds="true" />
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/btn_share"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            app:srcCompat="?attr/ic_share"
+            android:adjustViewBounds="true" />
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/greensha3"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_exit"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            app:srcCompat="?attr/ic_close"
+            android:adjustViewBounds="true"/>
+
+        <Space android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+</merge>

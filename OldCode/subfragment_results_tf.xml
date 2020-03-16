@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/scrollview_border_small">
+
+    <LinearLayout
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_run_descrption"
+            style="@style/style_text_xx"
+            android:text="@string/text_first_step" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart_results_task"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chart_height" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_pct_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="@dimen/normal_font"
+                android:text="@string/simple" />
+
+            <TextView
+                android:id="@+id/txt_pct_true"
+                android:layout_weight="1"
+                style="@style/percentage_value" />
+
+            <TextView
+                android:id="@+id/txt_pct_false"
+                android:layout_weight="1"
+                style="@style/percentage_value" />
+
+            <TextView
+                android:id="@+id/txt_pct_na"
+                android:layout_weight="1"
+                style="@style/percentage_value"/>
+
+            <TextView
+                android:id="@+id/txt_pct_nn"
+                android:layout_weight="1"
+                style="@style/percentage_value"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

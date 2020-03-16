@@ -1,0 +1,158 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.student_job.AnswerSquareFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_fondo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ViewStub
+                android:id="@+id/header_tmpl"
+                android:layout="@layout/header_template5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height" />
+
+            <ScrollView
+                style="@style/scrollview_border_small">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_run_view"
+                        style="@style/style_text_xx"
+                        android:text="@string/msg_tap_correct_answer"/>
+
+                    <TextView
+                        android:id="@+id/txt_roulette_action"
+                        style="@style/style_text_x"
+                        android:text="@string/msg_tap_correct_answer"/>
+
+
+                    <Button
+                        android:id="@+id/chkb_a"
+                        style="@style/default_app_toggle_smallx"
+                        android:text="@string/lbl_opinion_a" />
+
+
+                    <Button
+                        android:id="@+id/chkb_b"
+                        style="@style/default_app_toggle_smallx"
+                        android:text="@string/lbl_opinion_b" />
+
+
+                    <Button
+                        android:id="@+id/chkb_c"
+                        style="@style/default_app_toggle_smallx"
+                        android:text="@string/lbl_opinion_c" />
+
+
+                    <Button
+                        android:id="@+id/chkb_d"
+                        style="@style/default_app_toggle_smallx"
+                        android:text="@string/lbl_opinion_d" />
+
+                    <Button
+                        android:id="@+id/chkb_e"
+                        style="@style/default_app_toggle_smallx"
+                        android:text="@string/lbl_opinion_e" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_space" />
+
+                    <Button
+                        android:id="@+id/btn_guest_session"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="0dp"
+                        android:textSize="@dimen/normal_font"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button_round_gold"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:paddingRight="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:paddingTop="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/small_padding"
+                        android:textAllCaps="true"
+                        android:text="@string/text_close_guest_session"/>
+
+                    <Button
+                        android:id="@+id/btn_quest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="0dp"
+                        android:textSize="@dimen/normal_font"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button_round_purple"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:paddingRight="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:layout_marginBottom="@dimen/small_padding"
+                        android:paddingTop="@dimen/normal_margin"
+                        android:textAllCaps="true"
+                        android:text="@string/text_challenge_question"/>
+
+                    <Button
+                        android:id="@+id/btn_share"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="0dp"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:paddingRight="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:paddingTop="@dimen/normal_margin"
+                        android:textSize="@dimen/normal_font"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button_round_gold"
+                        android:textAllCaps="true"
+                        android:text="@string/text_share_partner"/>
+
+                    <Button
+                        android:id="@+id/btn_share_disabled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="0dp"
+                        android:paddingLeft="@dimen/normal_margin"
+                        android:paddingRight="@dimen/normal_margin"
+                        android:paddingBottom="@dimen/normal_margin"
+                        android:paddingTop="@dimen/normal_margin"
+                        android:textSize="@dimen/normal_font"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button_round_gold"
+                        android:textAllCaps="true"
+                        android:text="@string/text_share_partner"/>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/huge_margin" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

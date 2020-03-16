@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="weigth_picker_user">2</integer>
+
+    <array name="images_protocol">
+        <item>@drawable/tutorial_docente1</item>
+        <item>@drawable/tutorial_docente2</item>
+        <item>@drawable/tutorial_docente3</item>
+        <item>@drawable/tutorial_docente4</item>
+        <item>@drawable/tutorial_docente5</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </array>
+
+    <array name="images_manual_school">
+        <item>@drawable/tutorial_colegial1</item>
+        <item>@drawable/tutorial_colegial2</item>
+        <item>@drawable/tutorial_colegial3</item>
+        <item>@drawable/tutorial_colegial4</item>
+        <item>@drawable/tutorial_colegial5</item>
+    </array>
+
+    <array name="images_manual_uni">
+        <item>@drawable/tutorial_universitario1</item>
+        <item>@drawable/tutorial_universitario2</item>
+        <item>@drawable/tutorial_universitario3</item>
+        <item>@drawable/tutorial_universitario4</item>
+        <item>@drawable/tutorial_universitario5</item>
+    </array>
+
+    <array name="images_wheel_colour">
+
+    </array>
+
+    <array name="images_wheel_grey">
+
+    </array>
+
+    <array name="images_wheel_tf_colour">
+
+    </array>
+
+    <array name="images_wheel_tf_grey">
+
+    </array>
+
+    <array name="images_empty">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </array>
+
+
+</resources>

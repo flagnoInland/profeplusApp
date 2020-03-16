@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.user.StepFourSignUpFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_alignParentBottom="true"
+            style="@style/lower_app_button"
+            android:contentDescription="nextsignin4"
+            android:text="@string/text_terminate"/>
+
+
+        <ScrollView
+            android:layout_above="@+id/btn_next"
+            style="@style/scrollview_border">
+
+            <LinearLayout
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txt_run_view"
+                    style="@style/style_text_x"
+                    android:text="@string/text_register_step_four"/>
+
+                <TextView
+                    android:id="@+id/txt_where"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_where_study"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_institution"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_institution"
+                        style="@style/default_app_input_xx"
+                        android:nextFocusDown="@+id/edt_speciality" />
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/txt_what"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_what_study"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_speciality"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_speciality"
+                        style="@style/default_app_input_xx"
+                        android:nextFocusDown="@+id/edt_student_id" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/txt_which"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_which_student_id"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_student_id"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_student_id"
+                        style="@style/default_app_input_xx"
+                        android:nextFocusDown="@+id/edt_student_id" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/txt_group"
+                    style="@style/style_text_xx"
+                    android:text="@string/text_concurso_group"/>
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_concurso_group"
+                        style="@style/default_app_input_x"/>
+
+                    <EditText
+                        android:id="@+id/edt_concurso_group"
+                        style="@style/default_app_input_xx" />
+
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:visibility="gone"
+                    android:id="@+id/btn_support_team"
+                    style="@style/default_app_boton"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="@dimen/large_margin"
+                    android:text="@string/text_support_team"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

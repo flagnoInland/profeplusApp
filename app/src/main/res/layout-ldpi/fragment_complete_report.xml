@@ -1,0 +1,139 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.SessionSchoolReportFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_report"
+            style="@style/lower_app_button"
+            android:text="@string/text_send_report"/>
+
+        <LinearLayout
+            android:layout_above="@+id/btn_report"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_template4"></include>
+
+            <ScrollView
+                style="@style/scrollview_border_small">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_complete_report_title"
+                        style="@style/style_text_x"
+                        android:text="@string/text_complete_report_title"/>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txt_course_name"
+                            style="@style/default_app_input_x"/>
+
+                        <EditText
+                            android:id="@+id/edt_course_name"
+                            style="@style/default_app_input_xx"
+                            android:nextFocusDown="@+id/edt_speciality"/>
+
+                    </RelativeLayout>
+
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_padding" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txt_speciality"
+                            style="@style/default_app_input_x"/>
+
+                        <EditText
+                            android:id="@+id/edt_speciality"
+                            style="@style/default_app_input_xx"
+                            android:nextFocusDown="@+id/edt_institution"/>
+
+                    </RelativeLayout>
+
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_padding" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txt_institution"
+                            style="@style/default_app_input_x"/>
+
+                        <EditText
+                            android:id="@+id/edt_institution"
+                            style="@style/default_app_input_xx"
+                            android:nextFocusDown="@+id/edt_header"/>
+
+                    </RelativeLayout>
+
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/big_padding" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txt_observations"
+                            style="@style/default_app_input_x"/>
+
+                        <EditText
+                            android:id="@+id/edt_observations"
+                            style="@style/default_app_input_xx"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

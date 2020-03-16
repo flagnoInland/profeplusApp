@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_fondo"
+    tools:context=".fragments.teacher_job.FreeQuestionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/header_template4"></include>
+
+
+        <ScrollView
+            style="@style/scrollview_border_small">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/text_numbered_question"
+                    style="@style/style_text_x"
+                    android:text="@string/text_which_type_question"/>
+
+
+                <Button
+                    android:id="@+id/chkb_free_exercises"
+                    style="@style/defaul_app_toggle_small"
+                    android:text="@string/text_five_alternatives" />
+
+                <Button
+                    android:id="@+id/chkb_dichotomous"
+                    style="@style/defaul_app_toggle_small"
+                    android:text="@string/text_false_or_true" />
+
+                <Button
+                    android:id="@+id/chkb_normal_exercises"
+                    style="@style/defaul_app_toggle_small"
+                    android:text="@string/text_from_databank" />
+
+
+                <Button
+                    android:id="@+id/chkb_opinion"
+                    style="@style/defaul_app_toggle_small"
+                    android:text="@string/text_get_opinion" />
+
+                <Button
+                    android:id="@+id/chkb_eval"
+                    style="@style/defaul_app_toggle_small"
+                    android:text="@string/text_evaluation" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

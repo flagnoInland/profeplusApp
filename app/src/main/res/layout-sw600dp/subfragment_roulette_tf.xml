@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/big_margin"
+    android:layout_marginBottom="@dimen/big_margin"
+    android:orientation="horizontal">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/txt_run_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/big_font"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/msg_tap_correct_answer"/>
+
+
+        <TextView
+            android:id="@+id/txt_roulette_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/large_font"
+            android:gravity="center"
+            android:textColor="@color/violeta2"
+            android:text="@string/msg_tap_correct_answer"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center">
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/layout_image"
+            android:layout_width="@dimen/wheel_side"
+            android:layout_height="@dimen/wheel_side"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center">
+
+            <com.equipu.profeplus.components.ThreeZonesWheel
+                android:id="@+id/wheel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="35%"
+                android:src="@drawable/logo"
+                android:adjustViewBounds="true"/>
+
+        </android.support.percent.PercentRelativeLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

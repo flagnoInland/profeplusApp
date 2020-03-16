@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="scrollview_border_small" parent="scrollview_border">
+        <item name="android:paddingLeft">@dimen/normal_margin</item>
+        <item name="android:paddingRight">@dimen/normal_margin</item>
+        <item name="android:paddingBottom">@dimen/normal_margin</item>
+        <item name="android:paddingTop">@dimen/normal_margin</item>
+    </style>
+
+    <style name="default_app_boton_small" parent="default_app_boton">
+        <item name="android:layout_width">@dimen/size_xxxxx</item>
+    </style>
+
+    <style name="defaul_app_spinner_small" parent="defaul_app_spinner">
+        <item name="android:layout_width">@dimen/size_xxxx</item>
+    </style>
+
+    <style name="defaul_app_toggle_small" parent="default_app_toggle">
+        <item name="android:background">@drawable/button_round_green</item>
+        <item name="android:layout_width">@dimen/size_xxxxx</item>
+        <item name="android:layout_height">@dimen/size_yy</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">@dimen/tiny_padding</item>
+    </style>
+
+    <style name="default_app_toggle_smallx" parent="defaul_app_toggle_small">
+        <item name="android:textSize">@dimen/normal_font</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="spinner_app_eval_small" parent="defaul_app_spinner">
+        <item name="android:layout_width">@dimen/size_yyy</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_font</item>
+        <item name="android:background">@drawable/spinner_app_eval</item>
+    </style>
+
+    <style name="edit_app_eval_small" parent="default_app_input">
+        <item name="android:layout_width">@dimen/size_yy</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/normal_font</item>
+    </style>
+
+    <style name="text_app_eval_small" parent="default_app_input">
+        <item name="android:layout_width">@dimen/size_y</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/twhite1</item>
+        <item name="android:textSize">@dimen/normal_font</item>
+    </style>
+
+    <style name="percentage_value_small" parent="percentage_value">
+        <item name="android:textSize">@dimen/normal_font</item>
+    </style>
+
+    <style name="default_app_toggle_small" parent="default_app_toggle">
+        <item name="android:layout_width">@dimen/size_xxxxx</item>
+        <item name="android:layout_height">@dimen/size_yy</item>
+    </style>
+
+
+
+
+
+</resources>
